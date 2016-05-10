@@ -14,3 +14,12 @@ layout: default
   </div>
 
 </article>
+<div class="paginate">
+  {% if page.previous.url %}
+    <div class="previous">이전 글 : <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></div>
+  {% endif %}
+  {% if page.next.url %}
+    <div class="previous">다음 글 : <a href="{{ page.next.url }}">{{ page.next.title }}</a></div>
+  {% endif %}
+
+</div>
