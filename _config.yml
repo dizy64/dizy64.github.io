@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Dizy Blog
+email: i@dizy.me
+description: > # this means to ignore newlines until "baseurl:"
+  내가 경험하고 느낀 것을 쓰는 곳이 될 듯 합니다.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://dizy64.github.io" # the base hostname & protocol for your site
+twitter_username: dizy64
+github_username:  dizy64
+facebook_username: dizy64
+
+# Build settings
+markdown: kramdown
