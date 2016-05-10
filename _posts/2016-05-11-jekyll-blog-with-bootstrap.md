@@ -14,7 +14,7 @@ Gemfile에 아래와 같이 추가한다.
 
 `gem 'jekyll-bootstrap-sass'`
 
-그 뒤 _config.yml 파일을 열어서 아래와 같이 추가해 준다.
+그 뒤 \_config.yml 파일을 열어서 아래와 같이 추가해 준다.
 
 ```
 gems:
