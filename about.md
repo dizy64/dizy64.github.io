@@ -1,6 +1,6 @@
 ---
 layout: page
-subject: about
+subject: About Me
 title: I'm a slow walker, but I never walk back.
 subtitle: 나는 느리지만, 뒤로 걸어가지는 않는다.
 permalink: /about/
