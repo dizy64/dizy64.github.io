@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MAC OS X El Capitan에서 HomeBrew 이용하여 neovim 설치하기"
+title:  "OS X El Capitan에서 neovim 설치하기"
 subtitle: "NEOVIM을 사용해보자"
 date:   2016-05-11 13:14:50 +0900
 categories: 'dev'
