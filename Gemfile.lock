@@ -129,6 +129,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-bootstrap-sass
+  jekyll-coffeescript
 
 BUNDLED WITH
    1.12.3

@@ -20,8 +20,9 @@ facebook_username: dizy64
 markdown: kramdown
 paginate: 3
 gems:
-  - jekyll-bootstrap-sass
+#  - jekyll-bootstrap-sass
   - jekyll-paginate
+  - jekyll-coffeescript
 
 bootstrap:
   assets: true
