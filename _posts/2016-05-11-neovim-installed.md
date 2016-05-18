@@ -17,7 +17,7 @@ NEO VIM는 오래 된 VIM을 리팩토링하고, 개선해나가는 버전이라
 ### 설치방법
 
 ```bash
-# brew install neovim/neovim/neovim
+brew install neovim/neovim/neovim
 ```
 
 끝...
