@@ -249,11 +249,6 @@
 }
 
 .post-content {
-  h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
-    margin-bottom: 5px;
-  }
-}
-.post-content {
   margin-bottom: $spacing-unit;
   font-size: 20px;
   font-weight: 300;
@@ -285,6 +280,6 @@
   }
 
   p {
-    line-height: 180%;
+    line-height: 150%;
   }
 }
