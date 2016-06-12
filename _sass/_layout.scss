@@ -193,6 +193,33 @@
   font-size: 24px;
 }
 
+/** 
+ * Home
+ */
+.home {
+  .post {
+    margin-bottom: 4px;
+    .post-header {
+      margin-bottom: 10px;
+      .post-title {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.6;
+        margin-bottom: 0;
+        @include media-query($on-laptop) {
+          font-size: 20px;
+        }
+      }
+      .post-meta {
+        font-size: 14px;
+        margin-bottom: 0px;
+        @include media-query($on-laptop) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
 
 
 /**
