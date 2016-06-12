@@ -3,7 +3,7 @@ layout: post
 title:  "첫 직장을 그만두며.."
 subtitle: "첫 직장에 대한 회고"
 date: 2016-06-12 17:05:22 +0900
-meta-image: "{{ site.url }}/images/carffeine.jpg"
+meta-image: "http://dizy64.github.io/images/carffeine.jpg"
 categories: 'review'
 ---
 
