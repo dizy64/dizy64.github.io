@@ -2,7 +2,7 @@
 layout: post
 title:  "우아한형제들(배달의 민족) 코딩 테스트 후기"
 subtitle: "codility.com 사용후기"
-date: 2016-06-12 17:05:22 +0900
+date: 2016-06-14 16:56:51 +0900
 categories: 'review'
 ---
 
