@@ -2,7 +2,7 @@
 layout: post
 title:  "맥 개발 환경 설정하기"
 subtitle: "나의 개발 환경 세팅을 위한 정리"
-date: 2016-06-14 16:56:51 +0900
+date: 2016-06-30 12:03:05 +0900
 categories: 'dev'
 ---
 
