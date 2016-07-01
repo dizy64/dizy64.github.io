@@ -12,7 +12,7 @@ categories: 'dev'
 AppStore에서 설치하면 됨.
 다운로드 속도가 느릴 땐 XCODE 공식 홈페이지를 이용하면 조금 빠를 때가 있더라.
 
-설치가 완료되면 
+설치가 완료되면
 
 ```
 $ xcode-select --install
@@ -91,6 +91,9 @@ $ brew linkapps macvim
 ```
 
 ### 필요한 어플리케이션 설치하기
+
+caskroom을 설치하고 나면 유틸리티성 패키지 설치 뿐만 아니라 일반적인 맥 어플리케이션도 설치/관리 할 수 있다.<br/>
+우선 크롬, 파이어폭스, 비발디 브라우저, 그리고 git을 설치한다.
 
 ```
 $ brew cask install google-chrome
