@@ -32,6 +32,7 @@ $ xcodebuild -license
 $ brew tap caskroom/cask
 $ brew tap caskroom/versions
 $ brew tap caskroom/fonts
+$ brew tap homebrew/dupes
 ```
 
 ### iterm2 설치하기
