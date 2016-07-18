@@ -1,27 +1,24 @@
 ---
-layout: post
-title:  "맥 개발 환경 설정하기"
-subtitle: "나의 개발 환경 세팅을 위한 정리"
-date: 2016-06-30 12:03:05 +0900
-meta-image: "http://dizy64.github.io/images/thumb_develop_env.jpg"
+
+layout: post title: "맥 개발 환경 설정하기" subtitle: "나의 개발 환경 세팅을 위한 정리" date: 2016-06-30 12:03:05 +0900 meta-image: "http://dizy64.github.io/images/thumb_develop_env.jpg"
+
 categories: 'dev'
----
+-----------------
 
 ### XCODE 설치 및 Command Line tools 설치
 
-AppStore에서 설치하면 됨.
-다운로드 속도가 느릴 땐 XCODE 공식 홈페이지를 이용하면 조금 빠를 때가 있더라.
+AppStore에서 설치하면 됨. 다운로드 속도가 느릴 땐 XCODE 공식 홈페이지를 이용하면 조금 빠를 때가 있더라.
 
 설치가 완료되면
 
 ```
 $ xcode-select --install
+$ xcodebuild -license
 ```
 
 ### Homebrew 설치
 
-<a href="http://brew.sh/" target="_blank">Homebrew</a>에서 시키는대로 설치하면 된다.<br/>
-이 글을 작성하는 시기에는 아래와 같다.
+<a href="http://brew.sh/" target="_blank">Homebrew</a>에서 시키는대로 설치하면 된다.<br/> 이 글을 작성하는 시기에는 아래와 같다.
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -32,6 +29,7 @@ $ xcode-select --install
 ```
 $ brew tap caskroom/cask
 $ brew tap caskroom/versions
+$ brew tap caskroom/fonts
 ```
 
 ### iterm2 설치하기
@@ -44,9 +42,7 @@ $ brew cask install iterm2
 
 ### zsh 설치
 
-개인적으론 기본 bash shell 보다 zsh가 편해서 zsh를 사용하고 있다.<br/>
-추가로 zsh의 플러그인인 oh-my-zsh를 설치하는데 개인적으로는 이만큼 편한게 있나 싶을 정도(...)<br/>
-물론 이외에도 많은 shell이 많다.
+개인적으론 기본 bash shell 보다 zsh가 편해서 zsh를 사용하고 있다.<br/> 추가로 zsh의 플러그인인 oh-my-zsh를 설치하는데 개인적으로는 이만큼 편한게 있나 싶을 정도(...)<br/> 물론 이외에도 많은 shell이 많다.
 
 ```
 $ brew install zsh
@@ -92,8 +88,7 @@ $ brew linkapps macvim
 
 ### 필요한 어플리케이션 설치하기
 
-caskroom을 설치하고 나면 유틸리티성 패키지 설치 뿐만 아니라 일반적인 맥 어플리케이션도 설치/관리 할 수 있다.<br/>
-우선 크롬, 파이어폭스, 비발디 브라우저, 그리고 git을 설치한다.
+caskroom을 설치하고 나면 유틸리티성 패키지 설치 뿐만 아니라 일반적인 맥 어플리케이션도 설치/관리 할 수 있다.<br/> 우선 크롬, 파이어폭스, 비발디 브라우저, 그리고 git을 설치한다.
 
 ```
 $ brew cask install google-chrome
@@ -101,12 +96,11 @@ $ brew cask install firefox
 $ brew cask install vivaldi
 $ brew cask install java
 $ brew install git
+$ brew cask install font-d2coding
 ```
 
 ### 결론
 
-이외의 개발환경(Ruby, Python 등등..)은 다음에 다시 정리해서 올리겠다.<br/>
-이번엔 정말 최소한의 환경에 대한 포스팅이다.<br/>
-사실 내가 까먹지 않으려고 썼다고 봐야..
+이외의 개발환경(Ruby, Python 등등..)은 다음에 다시 정리해서 올리겠다.<br/> 이번엔 정말 최소한의 환경에 대한 포스팅이다.<br/> 사실 내가 까먹지 않으려고 썼다고 봐야..
 
 혹여나 처음 맥을 구입하거나, 아직 제대로 환경설정을 못해본 분이라면 조금 참고해서 본인의 환경을 만들 수 있기를 바란다.
