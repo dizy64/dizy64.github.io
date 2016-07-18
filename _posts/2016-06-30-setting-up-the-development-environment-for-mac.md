@@ -91,7 +91,8 @@ $ brew linkapps macvim
 
 ### 필요한 어플리케이션 설치하기
 
-caskroom을 설치하고 나면 유틸리티성 패키지 설치 뿐만 아니라 일반적인 맥 어플리케이션도 설치/관리 할 수 있다.<br/> 우선 크롬, 파이어폭스, 비발디 브라우저, 그리고 git을 설치한다.
+caskroom을 설치하고 나면 유틸리티성 패키지 설치 뿐만 아니라 일반적인 맥 어플리케이션도 설치/관리 할 수 있다.<br/>
+우선 크롬, 파이어폭스, 비발디 브라우저, 그리고 git을 설치한다.
 
 ```
 $ brew cask install google-chrome
@@ -99,6 +100,11 @@ $ brew cask install firefox
 $ brew cask install vivaldi
 $ brew cask install java
 $ brew install git
+```
+
+추가로 D2-coding 폰트를 추가한다.
+
+```
 $ brew cask install font-d2coding
 ```
 
