@@ -12,9 +12,9 @@ permalink: /about/
 
 이후 홈페이지를 더 이쁘게 꾸미고자 갔던 컴퓨터학원에서 C언어를 접하게 되었고 컴퓨터공학부에 진학하게 되었습니다.
 
-저는 현재 이직을 준비중이며 2015년 초부터 2016년 5월 말까지 <a href="https://www.carffeine.com/" target="_blank">카페인</a>에 근무하였습니다.
+저는 현재 <a href="http://www.stripes.co.kr/" target="_blank">스트라입스</a>에서 근무중이며  2015년 초부터 2016년 5월 말까지 <a href="https://www.carffeine.com/" target="_blank">카페인</a>에 근무하였습니다.
 
-올 해 2년차 개발자로 카페인에서 맡았던  분야는 웹 서비스 개발이고 사용하는 언어/프레임워크는 Ruby on Rails를 다뤘습니다.
+올 해 2년차 개발자로 웹 서비스 개발을 주로 하였고 사용하는 언어/프레임워크는 Ruby on Rails를 다뤘습니다.
 
 관심있는 분야는 Backend 개발과 서비스 운영쪽에 관심이 많습니다.
 
