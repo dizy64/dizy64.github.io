@@ -7,7 +7,7 @@ categories: 'dev'
 
 사내에서 Production 환경의 MongoDB를 백업하기 위해 스크립트를 짰는데..
 
-mysql의 경우 pipeline 으로 바로 mysqldump | mysql 의 방식으로 복구가 가능해서 편했는데
+mysql의 경우 pipeline 으로 바로 mysqldump \| mysql 의 방식으로 복구가 가능해서 편했는데
 
 아무리 찾아봐도 그런 방법은 없어보여서 일단 임시 폴더에 다운받고, 복원하고, 지우는 형태로 작업을 했다.
 
@@ -47,7 +47,7 @@ namespace :sync do
     puts dump_statement
     system dump_statement
 
-    restore_statement = "mongorestore --drop --db #{ restore_db } #{ backup_file_path }/#{project_name}_production
+    restore_statement = "mongorestore --drop --db #{ restore_db } #{ backup_file_path }/#{project_name}_production"
     puts '백업 파일로 development 환경의 DB를 갱신합니다.'
     puts restore_statement
     system resotre_statement
