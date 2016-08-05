@@ -42,7 +42,7 @@ namespace :sync do
     restore_db = "#{ project_name }_#{ Rails.env }"
 
 
-    dump_statement = "mongodump --host #{ host } --db #{ project_name }_production --out #{ backup_file_path }
+    dump_statement = "mongodump --host #{ host } --db #{ project_name }_production --out #{ backup_file_path }"
     puts 'Production 환경에서 MongoDB 백업 파일을 다운 받는 중......'
     puts dump_statement
     system dump_statement
