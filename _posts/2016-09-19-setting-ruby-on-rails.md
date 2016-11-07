@@ -45,7 +45,7 @@ ruby -v
 
 루비 버전이 2.3.1로 정상적으로 나오면 끝.
 
-프로젝트 별로 다른 버전을 쓰고 싶다면 rbenv install [version] 으로 설치 후 해당 프로젝트에서 `echo 'version' > .ruby-vserion` 해주면 된다.
+프로젝트 별로 다른 버전을 쓰고 싶다면 rbenv install [version] 으로 설치 후 해당 프로젝트에서 `echo 'version' > .ruby-version` 해주면 된다.
 
 
 ## Rails 설치
