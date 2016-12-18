@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "내 서버에 http/2 적용기 (Ubuntu + Nginx + SSL 인증서 발급받기")
+title:  "내 서버에 http/2 적용기 (Ubuntu + Nginx + SSL 인증서 발급받기)"
 subtitle: "HTTP/2 를 설정하기 위한 고군분투기(...)"
 date: 2016-12-14 14:41:42 +0900
 categories: 'dev'
