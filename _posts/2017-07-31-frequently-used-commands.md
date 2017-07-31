@@ -18,9 +18,14 @@ categories: 'dev'
 
 `mysqldump -u[userID] -p[PASSWORD] --all-databases > dump.sql`
 
-`mysqldump -u[userID] -p[PASSWORD] --databases [DB] > dump.sql`
+`mysqldump -u[userID] -p[PASSWORD] --databases [DBNAME] > dump.sql`
 
 `mysqldump -u[userID] -p[PASSWORD] [DBNAME] [TABLE]`
+
+### MYSQL 복원하기
+
+`mysql -u[userId] -p[password] [DBNAME] < dump.sql`
+
 
 ## SCP 사용법
 
