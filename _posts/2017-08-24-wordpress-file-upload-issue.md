@@ -53,7 +53,8 @@ server {
 추측컨데 nginx 에서의 rewrite rule 문제이거나 퍼미션 문제를 예상했다.
 
 결국 이렇게 저렇게 찾아본 결과 nginx의 user는 `nginx`로 설정해두고 php-fpm user는 `www-data`로 설정해서 생긴 문제였다.<br/>
-php가 파일을 업로드하거나 생성하면 `www-data:www-data`로된 user/group 권한을 가지고 있는데 nginx는 `nginx:nginx`의 그룹이었던 것이 문제.
+php가 파일을 업로드하거나 생성하면 `www-data:www-data`로된 user/group 권한을 가지고 있는데 nginx는 `nginx:nginx`의 그룹이었던 것이 문제.<br/>
+소유권이 달랐던 nginx는 해당 파일을 불러올 수 없으므로 404 에러를 내뿜었던 것이다.
 
 `/etc/nginx/nginx.conf` 에 들어가서 nginx 유저를 확인 하고 `/etc/php/7.0/fpm/pool.d/www.conf` 에서 user:group 을 nginx로 맞춰주고 문제는 종결.
 
