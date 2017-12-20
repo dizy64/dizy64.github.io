@@ -19,7 +19,7 @@ facebook_username: dizy64
 # Build settings
 markdown: kramdown
 paginate: 6
-gems:
+plugins:
 #  - jekyll-bootstrap-sass
   - jekyll-paginate
   - jekyll-coffeescript
