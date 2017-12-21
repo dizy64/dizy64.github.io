@@ -18,6 +18,8 @@ facebook_username: dizy64
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
 paginate: 6
 plugins:
 #  - jekyll-bootstrap-sass
