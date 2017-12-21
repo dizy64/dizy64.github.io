@@ -11,7 +11,7 @@ categories: 'dev'
 
 ### Gemfile 생성
 
-```Ruby
+```ruby
 source 'https://rubygems.org'
 
 gem 'sinatra'
@@ -26,7 +26,7 @@ gem 'puma'
 작업한 대로 nginx의 public 폴더 이름도 변경해주면 됨.
 
 
-```Ruby
+```ruby
 require 'sinatra'
 
 set :public_folder, File.dirname(__FILE__) + '/static'
@@ -48,7 +48,7 @@ end
 
 ### config.ru 파일 만들기
 
-```Ruby
+```ruby
 require 'sinatra'
 set :env, :production
 disable :run
@@ -62,7 +62,7 @@ Puma AppServer 를 실행시킬 때의 설정을 한다.
 서버에 맞게 설정해주면 된다.
 
 ### config/puma.rb
-```Ruby
+```ruby
 root = "#{ Dir.getwd }"
 
 puma_base_dir = "#{ root }/tmp/puma"
@@ -77,7 +77,7 @@ threads 2, 4
 
 ### /etc/nginx/nginx.conf 또는 /etc/nginx/sites-avaliable/
 
-```Ruby
+```ruby
 upstream app_name {
   server unix:///app_dir/tmp/puma/socket;
 }
