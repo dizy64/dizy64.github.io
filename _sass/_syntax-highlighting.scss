@@ -1,9 +1,16 @@
 /**
  * Syntax highlighting styles
  */
+ @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
 .highlight {
     background: #fff;
     @extend %vertical-rhythm;
+
+    code {
+      font-family: 'Inconsolata', monospace;
+    }
+
 
     .highlighter-rouge & {
       background: #eef;
