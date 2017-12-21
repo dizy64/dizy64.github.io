@@ -32,20 +32,20 @@ NGINX 버전을 올리기 위해서 apt 소스 리스트를 업데이트해주�
 
 우선 /etc/apt/sources.list.d/nginx.list 라는 파일을 만들고 아래와 같이 입력한다.
 
-```
+```bash
 deb http://nginx.org/packages/mainline/ubuntu/ trusty nginx
 deb-src http://nginx.org/packages/mainline/ubuntu/ trusty nginx
 ```
 
 그리고 사이닝 키를 추가한다.
 
-```
+```bash
 wget -q -O- http://nginx.org/keys/nginx_signing.key | sudo apt-key add -
 ```
 
 그 후 nginx 를 설치한다. 만약에 이전에 설치한게 있으면 지우고 설치하는게 제일 깔끔하더라. (설정 파일은 안날라감)
 
-```
+```bash
 sudo apt-get update
 sudo apt-get install nginx
 ```
@@ -70,21 +70,21 @@ sudo apt-get install nginx
 
 다운을 받고 실행 권한을 맞춰준다.
 
-```
+```bash
 wget https://dl.eff.org/certbot-auto
 chmod a+x certbot-auto
 ```
 
 실행을 한다.
 
-```
+```bash
 ./certbot-auto certonly --standalone -d example.com -d www.example.com
 ```
 
 그리고 자동으로 90일이 되면 자동으로 리뉴얼 하도록 하는 명령어
 
-```
-./certbot-auto renew --dry-run 
+```bash
+./certbot-auto renew --dry-run
 ```
 
 이렇게 발급받은 후 nginx 에 세팅을 해야하는데 이 부분은 <a href="https://mozilla.github.io/server-side-tls/ssl-config-generator/">Mozilla SSL Configuration Generator</a>를 이용했다.

@@ -21,7 +21,7 @@ HTST는 HTTP로 접속 후 HTTPS로 리다이렉트 할 경우 생길 수 있는
 ## POW 해결책
 
 제일 유명한 <a href="http://pow.cx">pow.cx</a>에서는 이 부분을 .test 도메인을 디폴트로 변경해서 해결 한 것으로 보이는데 만약 이가 되어있지 않다면 `~/.powconfig`에서 아래와 같이 설정한다.
-```
+```bash
 export POW_DOMAINS=test,local
 ```
 
@@ -34,7 +34,7 @@ pow를 이용하는 것 같아서 똑같이 하려했는데 안됨.
 
 puma-dev install를 다시 진행했다.
 
-```
+```bash
 puma-dev -install -d test
 ```
 
@@ -53,4 +53,3 @@ puma-dev -install -d test
 2. <a href="https://github.com/puma/puma-dev/issues/127">puma-dev github issue: Chrome to force .dev domains to HTTPS via preloaded HSTS</a>
 3. <a href="https://rsec.kr/?cat=40" target="_blank">HSTS (HTTP Strict Transport Security) 개념과 설정</a>
 4. <a href="https://ma.ttias.be/chrome-force-dev-domains-https-via-preloaded-hsts/" target="_blank">Chrome to force .dev domains to HTTPS via preloaded HSTS</a>
-

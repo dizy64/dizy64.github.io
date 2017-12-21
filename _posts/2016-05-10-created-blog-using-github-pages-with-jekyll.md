@@ -18,7 +18,7 @@ Github에서는 [Pages](https://pages.github.com/)라는 서비스를 제공하�
 
 우선 github에서 repository를 생성한다. 이때 생성할 이름은 자신의 깃허브 아이디를 포함하여 아래와 같이 생성한다.
 
-`username.github.io` 
+`username.github.io`
 
 이렇게 생성한 repository를 clone으로 내려 받는다.
 
@@ -38,7 +38,7 @@ Github에서는 [Pages](https://pages.github.com/)라는 서비스를 제공하�
 
 Gemfile 에는 다음과 같은 내용을 작성한다.
 
-```
+```bash
 source 'https://rubygems.org'
 
 gem 'github-pages'

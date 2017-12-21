@@ -32,9 +32,9 @@ mongorestore --db RESTORE_DB BACKUP_FILE_PATH/PRODUCTION_DATABASE_NAME
 
 RAILS TASK 에서 Production MongoDB를 Develop에서 Sync 하기 위해 아래와 같이 스크립트를 작성하였다.
 
-```rb
-namespace :sync do 
-  task :mongodb => :environment do 
+```ruby
+namespace :sync do
+  task :mongodb => :environment do
     backup_file_path = "#{ Rails.root }/mongo.bak"
     project_name = 'project' # 변경해야함.
 
@@ -66,6 +66,6 @@ lib/task/sync.rake에 저장한다.
 
 ### 실행방법
 
-```
+```bash
 bundle exec rake sync:mongodb
 ```
