@@ -129,14 +129,15 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
+    // border: 1px solid $grey-color-light;
+    font-family: 'Inconsolata', monospace;
     border-radius: 3px;
-    background-color: #eef;
+    color: #93a1a1;
+    background-color: #002b36;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 2px 5px;
 }
 
 pre {
