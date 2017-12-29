@@ -35,7 +35,14 @@ rgb['white'] # => '#FFFFFF'
 
 덕분에 문자열 처리 후 `.to_sym`을 하는 일을 줄일 수 있어서 편한 것 같다. 종종 사용할 듯하다.
 
+똑같은 이유로
+
+`.to_h` 는 `ActiveSupport::HashWithIndifferentAccess` 이고 `.to_hash`는 일반 `hash`로 변환된다.
+
+`.to_h`로 변환한 경우 `hash.symbolize_keys` 를 해주지 않아도 된다.
+
 ## 참고
 
 * [APIdock: with_indifferent_access](https://apidock.com/rails/Hash/with_indifferent_access)
 * [Api dock: ActiveSupport::HashWithIndifferentAccess](https://apidock.com/rails/ActiveSupport/HashWithIndifferentAccess)
+* [RubyOnRails API: .to_h](http://api.rubyonrails.org/v5.0.2/classes/ActionController/Parameters.html#method-i-to_h)
