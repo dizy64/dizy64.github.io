@@ -4,7 +4,6 @@ title:  "내 서버에 http/2 적용기 (Ubuntu + Nginx + SSL 인증서 발급�
 subtitle: "HTTP/2 를 설정하기 위한 고군분투기(...)"
 date: 2016-12-14 14:41:42 +0900
 categories: 'dev'
-tags: [https, nginx, http/2, ssl, ubuntu]
 ---
 
 오늘은 내 서버에 http 2를 적용했다. 딱히 뭐가 없는 사이트긴 하지만 그냥 해볼 수 있을때 해두자.. 정도로... 생각해서 진행했다.

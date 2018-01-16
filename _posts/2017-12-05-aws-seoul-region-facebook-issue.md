@@ -4,7 +4,6 @@ title:  "AWS 서울 리전과 페이스북 로그인 이슈"
 subtitle: "Facebook Oauth 지연 관련 문제"
 date: 2017-12-05 22:35:12 +0900
 categories: 'dev'
-tags: [aws, ec2, facebook, oauth]
 ---
 
 새로 입사한 회사의 서비스에 페이스북 로그인 하기 기능이 있는데 이게 제대로 작동하지 않는다 제보가 지난 주 부터 있었다고 한다.

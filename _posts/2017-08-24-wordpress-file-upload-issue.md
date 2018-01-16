@@ -4,12 +4,11 @@ title:  "워드프레스 이미지 첨부 안되는 문제 해결하기"
 subtitle: "NGINX와 PHP 권한 문제 정리"
 date: 2017-08-24 12:30:16 +0900
 categories: 'dev'
-tags: [wordpress, nginx, php, configuration]
 ---
 
 일상을 정리하기 위한 <a href="https://nadann.880322.com/" target="_blank">블로그</a>를 워드프레스로 만들었는데 파일 첨부가 안되는 문제때문에 고생했다.
 
-내가 워드프레스를 구성한 환경을 정리하자면
+내가 워드프레스를 구성한 환경을 정리하자면 
 
 * DigitalOcean Cloud Server
 * Ubuntu 16.04
@@ -62,7 +61,7 @@ php가 파일을 업로드하거나 생성하면 `www-data:www-data`로된 user/
 단, 이미 업로드 된 파일들의 소유권은 www-data:www-data 로 되어있기 때문에 이 부분을 바꿔줬다.
 
 ``` shell
-# 소유권을 변경한다.
+# 소유권을 변경한다. 
 chown -R nginx:nginx ~/public_html/wp-content/uploads/
 # 접근 권한 문제가 생길 수 있으니 해당 유저의 그룹을 추가한다.
 sudo usermod -aG nginx user
