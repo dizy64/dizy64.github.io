@@ -4,6 +4,7 @@ title:  "OS X에서 Ruby on Rails 개발 환경 세팅하기"
 subtitle: "이거슨 내가 필요해서 작성하는 세팅"
 date: 2016-09-19 14:06:22 +0900
 categories: 'dev'
+tags: [development environment, ruby, ruby on rails]
 ---
 
 사실 맥에 기본적으로 루비가 설치되어있긴 한데 시스템 루비 사용을 권장하지 않는다. <a href="https://robots.thoughtbot.com/psa-do-not-use-system-ruby" target="_blank">PSA: Do not use system Ruby</a> 참고
@@ -18,9 +19,9 @@ brew 설치 관련 내용은 <a href="http://dizy64.github.io/dev/2016/06/30/set
 
 각각의 차이는... 들었는데 잘 기억은 안난다;
 
-rvm이 환경 변수를 많이 변형하다보니 자주 꼬이는 경우가 많고 무겁다고 들었다. 
+rvm이 환경 변수를 많이 변형하다보니 자주 꼬이는 경우가 많고 무겁다고 들었다.
 
-나는 Rbenv 를 설치할 것이다. 
+나는 Rbenv 를 설치할 것이다.
 
 ```shell
 brew install rbenv ruby-build
@@ -54,7 +55,4 @@ ruby -v
 gem install rails -v 4.2.6
 ```
 
-끝. 
-
-
-
+끝.

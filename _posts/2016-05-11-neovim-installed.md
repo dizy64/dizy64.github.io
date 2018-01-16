@@ -4,6 +4,7 @@ title:  "OS X El Capitan에서 neovim 설치하기"
 subtitle: "NEOVIM을 사용해보자"
 date:   2016-05-11 13:14:50 +0900
 categories: 'dev'
+tags: [neovim, development tools, mac]
 ---
 
 나는 최근까지 MACVIM을 사용하고 있었다.
