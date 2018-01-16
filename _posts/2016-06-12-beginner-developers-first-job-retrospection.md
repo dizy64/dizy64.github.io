@@ -3,9 +3,8 @@ layout: post
 title:  "첫 직장을 그만두며.."
 subtitle: "첫 직장에 대한 회고"
 date: 2016-06-12 17:05:22 +0900
-photo: "http://dizy64.github.io/images/carffeine.jpg"
+meta-image: "http://dizy64.github.io/images/carffeine.jpg"
 categories: 'review'
-tags: [회고, 개발, 개발팀]
 ---
 
 ### 첫 직장
@@ -26,7 +25,7 @@ SNS에서 잉여로움을 뽐냈던 나를 안대표님이 좋게 봐주셔서 �
 2015년 3월. 첫 입사때 느꼈던 긴장감과 기대감은 말로 표현할 수가 없다.<br/>
 내가 속했던 세상이 아닌 다른 세상을 첫 발을 내딛는 상상에 너무 설렜다.<br/>
 
-당시의 나는
+당시의 나는 
 
 > 야근을 시켜도 열심히해야지! 모든 걸 불 살라버려야지!
 

@@ -4,7 +4,6 @@ title:  "싱가폴 리전에 있는 EC2 인스턴스 서울로 이전하기"
 subtitle: "AWS EC2 리전 옮기기"
 date: 2017-08-24 18:30:21 +0900
 categories: 'dev'
-tags: [operation, aws, ec2, region, migration]
 ---
 
 사내에서 개발용도로 이용하는 스테이징 서버가 싱가폴 리전에 있다. 이유는 잘 모르겠다.<br/>
