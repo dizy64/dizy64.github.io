@@ -3,6 +3,7 @@ layout: post
 title:  "크롬에서 HSTS를 통해 .dev 도메인을 HTTPS로 강제로 전환하는 이슈"
 date: 2017-12-12 09:27:45 +0900
 categories: 'dev'
+tags: [HSTS, https, puma-pow, pow]
 ---
 
 어제부터 갑자기 크롬으로 개발하는 사이트의 URL이 접속이 안되는 문제가 발생했다.
