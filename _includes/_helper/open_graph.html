@@ -57,6 +57,7 @@
   <meta property="og:title" content="{{ title | xml_escape }}"><!--newline-->
   <meta property="og:url" content="{{ url }}"><!--newline-->
   <meta property="og:site_name" content="{{ site_name | xml_escape }}"><!--newline-->
+  <meta property="og:image" content="{% if page.meta-image %}{{ page.meta-image }}{% else %}{{'http://dizy64.github.io/images/epilogue.jpg'}}{% endif %}" /><!--newline-->
 
   {% if description %}
     <meta property="og:description" content="{{ description }}">
@@ -80,6 +81,8 @@
 
   <meta name="twitter:card" content="{{ twitter_card | xml_escape }}"><!--newline-->
   <meta name="twitter:title" content="{{ title | xml_escape }}"><!--newline-->
+  <!-- Twitter summary card with large image must be at least 280x150px -->
+  <meta name="twitter:image:src" content="{% if page.meta-image %}{{ page.meta-image }}{% else %}{{'http://dizy64.github.io/images/epilogue.jpg'}}{% endif %}"><!--newline-->
 
   {% if description %}
     <meta name="twitter:description" content="{{ description }}">
