@@ -4,6 +4,7 @@ title:  "우아한형제들 입사면접 코딩 테스트 후기"
 subtitle: "codility.com 사용후기"
 date: 2016-06-14 16:56:51 +0900
 categories: 'review'
+tags: [경험기, 코딩 테스트, 입사, 우아한형제들]
 ---
 
 좋은 기회를 통해 우아한 형제들(배달의 민족)에 온라인 면접을 보게 되었다.<br/>
@@ -12,7 +13,7 @@ categories: 'review'
 ### Codility 온라인 코딩 테스트
 
 우아한 형제들 측에서 통화를 통해 기술 면접이 있다고 이야기해주었고, 온라인 코딩 테스트라는 이야기를 해주었다.
-나는 이미 구글링을 통해 <a href="http://java.ihoney.pe.kr/416" target="_blank">우아한형제들 입사지원 후기</a>를 읽어보았고, 이를 통해서 <a href="http://www.codility.com" target="_blank">Codility.com</a>을 통해 코딩 테스트를 한다는 것은 확인한 상태였다. 
+나는 이미 구글링을 통해 <a href="http://java.ihoney.pe.kr/416" target="_blank">우아한형제들 입사지원 후기</a>를 읽어보았고, 이를 통해서 <a href="http://www.codility.com" target="_blank">Codility.com</a>을 통해 코딩 테스트를 한다는 것은 확인한 상태였다.
 
 ### Codility란?
 
@@ -37,7 +38,7 @@ categories: 'review'
 
 다른 분들은 도전 전에 꼭 컨디션을 잘 조절하기를 바란다.
 
-### 결론 
+### 결론
 
 이제는 codility 같은 플랫폼을 이용하여 구인을 하는 회사가 늘어날 것으로 예상된다.<br/>
 코딩 도장류의 문제를 가끔씩 풀어보고 codility.com의 인터페이스와 문제 유형에 익숙해지는 것도 개인의 발전이나 취업을 위해서 도움이 될 듯 하다.

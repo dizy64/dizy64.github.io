@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Ruby On Rails 개발환경에서만 볼 수 있는 접속 경로들"
-subtitle: "Rails의 정보를 한눈에 볼 수 있는 개발환경의 info pagee들"
+subtitle: "Rails의 정보를 한눈에 볼 수 있는 개발환경의 info page들"
 date: 2016-09-22 18:09:22 +0900
 categories: 'dev'
+tags: [Ruby, Ruby on Rails]
 ---
 
 나는 보통 Rails에서 일부러 주소를 오타내서 라우트 정보를 확인하곤 했었는데

@@ -3,6 +3,7 @@ layout: post
 title:  "몽고 DB 백업 및 복구 스크립트 작성하기"
 date: 2016-08-05 14:06:22 +0900
 categories: 'dev'
+tags: [devops, backup, mongodb, dbdump, ruby]
 ---
 
 사내에서 Production 환경의 MongoDB를 백업하기 위해 스크립트를 짰는데..
