@@ -5,6 +5,7 @@ subtitle: "나의 개발 환경 세팅을 위한 정리"
 date: 2016-06-30 12:03:05 +0900
 meta-image: "http://dizy64.github.io/images/thumb_develop_env.jpg"
 categories: 'dev'
+tags: [mac, development environment, development tools, homebrew]
 ---
 
 ### XCODE 설치 및 Command Line tools 설치

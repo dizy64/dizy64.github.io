@@ -3,6 +3,7 @@ layout: post
 title:  "Sinatra 프로젝트 배포하기"
 date: 2016-07-31 23:18:35 +0900
 categories: 'dev'
+tags: [sinatra, deploy, development]
 ---
 
 인덱스 페이지 하나만 있는데 Rails로 배포하고 있었던 <a href="http://www.880322.com">880322.com</a>를 이번에 Sinatra로 변경했다.
