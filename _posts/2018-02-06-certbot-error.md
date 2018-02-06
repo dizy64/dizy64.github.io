@@ -7,11 +7,15 @@ categories: 'dev'
 tags: [nginx, apache, https, letsencrypt, certificate]
 ---
 
->Obtaining a new certificate
->Performing the following challenges:
->Client with the currently selected authenticator does not support any combination of challenges that will satisfy the CA.
->Client with the currently selected authenticator does not support any combination of challenges that will satisfy 
->the CA.
+
+평소처럼 도메인을 추가하기 위해 `sudo certbot --nginx`를 입력했는데 에러가 발생했다.
+
+```shell
+Obtaining a new certificate
+Performing the following challenges:
+Client withith the currently selected authenticator does not support any combination of challenges that will satisfy the CA.
+Client with the currently selected authenticator does not support any combination of challenges that will satisfy the CA.
+```
 
 이게 갑자기 떠서 놀랬다.
 
