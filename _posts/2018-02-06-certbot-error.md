@@ -2,7 +2,7 @@
 layout: post
 title:  "Certbot 새 인증서 발급시 에러 발생하는 문제"
 subtitle: "Client with the currently selected authenticator does not support any combination of challenges that will satisfy the CA."
-date: 2017-12-27 23:24:21 +0900
+date: 2018-02-06 15:24:21 +0900
 categories: 'dev'
 tags: [nginx, apache, https, letsencrypt, certificate]
 ---
