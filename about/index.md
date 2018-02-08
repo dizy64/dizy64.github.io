@@ -10,6 +10,7 @@ permalink: /about/
 * 이동근
 * 대한민국 서울특별시 거주
 * Software Engineer
+* E-Commerce Service
 
 # Software Engineer
 
@@ -23,14 +24,15 @@ permalink: /about/
   * jQuery
   * CSS(SCSS)
   * AWS
-  * ubuntu
+  * Linux(Ubuntu)
   * RESTFUL API
-* 잘 사용하지는 않지만 좋아하는 개발 환경(Sub Skill set)
+* 잘 사용하지는 않지만..(Sub Skill set)
   * python
   * django
   * flask
   * Golang
   * C
+  * Java(Spring Boot)
   * vue 2 
   * polymer
 
