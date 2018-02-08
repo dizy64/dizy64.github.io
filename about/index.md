@@ -37,6 +37,8 @@ permalink: /about/
 # Experiences
 
 * Grepp (2017.12 ~ 현재)
+  * http://grepp.co
+  * 개발자를 위한 교육 서비스와 코딩 테스트 서비스 등을 제공하고 있는 개발자를 위한 스타트업
   * Software Engineer
   * Role
     * 신규 서비스 개발 및 유지보수
@@ -46,6 +48,8 @@ permalink: /about/
     * 비즈니스 결제 기능 구현 (2018.01 ~ 2017.01)
     * 강의 결제 기능 구현 (2018.02 ~ 2018.02)
 * Streips (2016.07 ~ 2017.08)
+  * https://stripes.co.kr/
+  * 남성 의류 관련 스타트업. 기성품이 아닌 고객 커스터마이징을 도와주는 스타트업
   * Software Engineer
   * Role
     * 팀 리딩
@@ -64,6 +68,8 @@ permalink: /about/
     * 사이트 통합 개편 프로젝트 (2017.3 ~ 2017.06)
     * 그루밍 정기 결제 서비스 (2017.07 ~ 2017.08)
 * Carffeine (2015.03 ~ 2016.06)
+  * https://www.carffeine.com
+  * 자동차 정비 및 튜닝 시장의 O2O 서비스. 현재 폐업
   * Software Engineer
   * Role
     * 신규 서비스 개발 및 유지 보수
