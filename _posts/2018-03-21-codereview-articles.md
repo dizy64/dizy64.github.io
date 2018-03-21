@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "코드 리뷰와 관련 된 아티클 모음"
+title:  "코드 리뷰와 관련된 아티클 모음"
 date: 2018-03-21 17:52:21 +0900
 categories: 'dev'
 tags: [codereview, team, culture]
