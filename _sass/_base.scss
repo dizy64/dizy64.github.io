@@ -43,7 +43,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
+    max-width: 800px;
     vertical-align: middle;
 }
 
@@ -129,6 +129,7 @@ blockquote {
  */
 pre,
 code {
+    font-family: $base-code-font-family; 
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;

@@ -12,9 +12,11 @@ layout: default
       </header>
       <section class="content">
         <p>
-          {{ post.content | truncatewords: 40 }}
+          {{ post.content | truncatewords: 150 }}
         </p>
-        <a href="{{ post.url }}" class="more">Read more...</a>
+        <p>
+          <a href="{{ post.url }}" class="more">Read more...</a>
+        </p>
       </section>
     </article>
     {% endfor %}
