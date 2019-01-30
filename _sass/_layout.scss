@@ -202,24 +202,24 @@
     .post-header {
       margin-bottom: 10px;
       .post-title {
-        font-size: 26px;
-        font-weight: 700;
+        font-size: 1.6rem;
+        font-weight: bold;
         line-height: 1.6;
-        margin-bottom: 0;
         @include media-query($on-laptop) {
           font-size: 20px;
         }
       }
+      .post-subtitle {
+        font-size: 0.9rem;
+        font-weight: bold;
+      }
       .post-meta {
-        font-size: 14px;
+        font-size: 0.6rem;
         margin-bottom: 0px;
-        @include media-query($on-laptop) {
-          font-size: 12px;
-        }
       }
     }
     .content {
-      font-size: 16px;
+      font-size: 1rem;
       @include media-query($on-laptop) {
         font-size: 14px;
       }
