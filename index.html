@@ -1,3 +1,32 @@
 ---
-layout: index
+layout: default
 ---
+
+<div class="home">
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> / <span itemprop="category">{{ post.categories }}</span> {% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+      </header>
+      <section class="content">
+        <p>
+          {{ post.content | truncatewords: 40 }}
+        </p>
+        <a href="{{ post.url }}" class="more">Read more...</a>
+      </section>
+    </article>
+    {% endfor %}
+
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% endif %}
+        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% endif %}
+  </div>
+</div>

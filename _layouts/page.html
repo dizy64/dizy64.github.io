@@ -1,6 +1,15 @@
 ---
-layout: layout
+layout: default
 ---
+<article class="post">
 
-{% assign __ = site.data.languages[site.language] %}
-{% include page.html %}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h2 class="post-subtitle">{{ page.subtitle }}</h2>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
