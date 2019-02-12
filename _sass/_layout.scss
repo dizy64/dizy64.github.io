@@ -1,6 +1,16 @@
 /*
  * Site header
  */
+
+@mixin link-underline {
+  a {
+    box-shadow: inset 0 -3px 0 #FFD700;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
@@ -221,6 +231,7 @@
       }
     }
     .content {
+      @include link-underline;
       font-size: 1rem;
       @include media-query($on-laptop) {
         font-size: 14px;
@@ -256,10 +267,13 @@
 }
 
 .post-content {
+  @include link-underline;
+
   margin-bottom: $spacing-unit;
   font-size: $base-font-size;
   font-weight: $base-font-weight;
   line-height: 180%;
+
   h1, h2, h3, h4, h5, h6 { font-weight: bold }
   h1 { font-size: 1.4rem }
   h2 { font-size: 1.3rem }
