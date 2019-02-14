@@ -299,6 +299,15 @@
       font-size: 1.1rem;
       margin-bottom: 5px;
     }
+    &#experiences {
+      span {
+        &.period {
+          font-size: 0.7rem;
+          color: #999;
+          word-break: keep-all;
+        }
+      }
+    }
     &#bio {
       .skill {
         ul > li > ul > li {
