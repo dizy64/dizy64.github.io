@@ -203,7 +203,7 @@
   font-size: 24px;
 }
 
-/** 
+/**
  * Home
  */
 .home {
@@ -279,4 +279,35 @@
   h2 { font-size: 1.3rem }
   h3 { font-size: 1.2rem; }
   h4, h5, h6 { font-size: 1.1rem }
+}
+
+/* Resume */
+
+.resume-page {
+  section {
+    &#bio, &#experiences {
+      margin-top: 30px;
+    }
+    h1 {
+      font-size: 1.3rem;
+    }
+    h2 {
+      &::before {
+        content: '-';
+        padding-right: 10px;
+      }
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+    &#bio {
+      .skill {
+        ul > li > ul > li {
+          display: inline-block;
+          padding: 0 5px;
+          background-color: #EEE;
+          line-height: 150%;
+        }
+      }
+    }
+  }
 }
