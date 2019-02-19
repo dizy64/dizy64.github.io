@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ruby on Rails의 ActiveRecord에서 Postgresql의 RangeType 사용 후기
+title: ActiveRecord에서 Postgresql의 RangeType 사용 후기
 date: 2019-02-19 22:40:15 +0900
 categories: 'dev'
 ---
