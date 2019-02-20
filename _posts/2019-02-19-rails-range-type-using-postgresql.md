@@ -10,10 +10,12 @@ categories: 'dev'
 사용해보기로 했습니다.
 
 이유는 단순히 컬럼을 여러 개 만들기 싫어서였는데 결과적으로 말씀드리자면 Range를 띄엄띄엄 알고 있던 저희에게는 불편한
-점이 투성이었습니다.<br/>
+점이 투성이었습니다.
+
 Range 절에 질의를 하는 쿼리문을 작성하는 것도 조금 불편했기도 했고 경력 범위라는 게 Range Object 개념과는 미묘하게 다른
 부분이 있었기 때문입니다.
 
+다시 RangeType에 대해서 소개하자면
 <a href="https://edgeguides.rubyonrails.org/active_record_postgresql.html#range-types" target="_blank">Ruby on Rails
 Edge Guide</a>에서 안내되고 있듯이 Ruby의 <a href="http://ruby-doc.org/core-2.5.3/Range.html" target="_blank">Range</a>
 Object와 매핑됩니다.
