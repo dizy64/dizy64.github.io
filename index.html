@@ -11,14 +11,6 @@ layout: default
     {% if post.subtitle %}<h2 class="post-subtitle">{{ post.subtitle }}<h2>{% endif %}
         <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> / <span itemprop="category">{{ post.categories }}</span> {% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
       </header>
-      <section class="content">
-        <p>
-          {{ post.content | truncatewords: 150 }}
-        </p>
-        <p>
-          <a href="{{ post.url }}" class="more">Read more...</a>
-        </p>
-      </section>
     </article>
     {% endfor %}
 
