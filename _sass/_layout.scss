@@ -267,10 +267,13 @@
 
 .post-content {
   @include link-underline;
-
+  font-size: $base-font-size + 3px;
   margin-bottom: $spacing-unit;
-  font-size: $base-font-size;
   font-weight: $base-font-weight;
+  @include media-query($on-laptop) {
+    font-size: $base-font-size;
+    
+  }
   line-height: 180%;
 
   h1, h2, h3, h4, h5, h6 { font-weight: bold }
