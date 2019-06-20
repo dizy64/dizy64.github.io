@@ -272,7 +272,9 @@
   font-weight: $base-font-weight;
   @include media-query($on-laptop) {
     font-size: $base-font-size;
-    
+    img {
+      width: 90%;
+    }
   }
   line-height: 180%;
 
