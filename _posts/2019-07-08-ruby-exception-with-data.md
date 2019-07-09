@@ -2,6 +2,7 @@
 layout: post
 title: Ruby에서 Exeception 처리시 데이터를 포함하여 처리하기 
 date: 2019-07-08 19:00:17 +0900
+meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'ruby'
 ---
 
