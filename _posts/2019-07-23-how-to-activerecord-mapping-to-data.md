@@ -48,10 +48,22 @@ Rails에서 모델에 상속받는 `ActiveModel`는 `ActiveRecord::Base`를 상�
 
 그래서 모든 이유는 여기에 있지 않을까 하여 뜯어보았다.
 
-`ActiveRecord::Base`에서 발견한 [ActiveRecord::Attributes](https://github.com/rails/rails/blob/31105c81cc82ae829c382a4eee2c5aa362882dea/activerecord/lib/active_record/attributes.rb#L11) 모듈에서 의심이 되는 코드를 발견하였다.
+`ActiveRecord::Base`에서 발견한 [ActiveRecord::Attributes](https://github.com/rails/rails/blob/31105c81cc82ae829c382a4eee2c5aa362882dea/activerecord/lib/active_record/attributes.rb#L11) 모듈에서 의심이 되는 [코드들을](https://github.com/rails/rails/blob/31105c81cc82ae829c382a4eee2c5aa362882dea/activerecord/lib/active_record/attributes.rb#L236) 발견하였다.
 
 ```ruby 
 class_attribute :attributes_to_define_after_schema_loads, instance_accessor: false, default: {} # :internal:
+
+...
+
+def define_attribute(
+  name,
+  cast_type,
+  default: NO_DEFAULT_PROVIDED,
+  user_provided_default: true
+)
+  attribute_types[name] = cast_type
+  define_default_attribute(name, default, cast_type, from_user: user_provided_default)
+end
 ```
 
 이 코드가 결국 동작하는게 클래스에 Attribute를 세팅해주는 것 같았다.<br/>
