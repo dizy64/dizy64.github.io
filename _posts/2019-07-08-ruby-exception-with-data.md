@@ -13,7 +13,7 @@ categories: 'ruby'
 
 ```ruby
 class PermissionDeniedError < StandardError
-  attr_accessor :token
+  attr_reader :token
 
   def initialize(message = 'Permission Denied!', token = nil)
     @token = token
@@ -46,3 +46,5 @@ end
 
 1. [How to add context data to exceptions in Ruby](https://www.honeybadger.io/blog/how-to-add-context-data-to-exceptions-in-ruby/)
 2. [Passing Data With Ruby Exceptions](https://thejqr.com/2009/02/11/passing-data-with-ruby-exceptions.html)
+
+****2019년 10월 30일 업데이트 함*
