@@ -25,3 +25,6 @@ RUBY_CONFIGURE_OPTS="--with-openssl-dir=/usr/local/opt/openssl" rbenv install 2.
 # For RVM
 RUBY_CONFIGURE_OPTS="--with-openssl-dir=/usr/local/opt/openssl" rvm install 2.3.3
 ```
+
+* 출처
+    * <a href="https://github.com/rbenv/ruby-build/issues/1353" target="_blank" rel="noopener">Cannot install Ruby versions < 2.4 because of openssl@1.1 dependency</a>
