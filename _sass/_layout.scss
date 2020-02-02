@@ -150,7 +150,7 @@
   width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@include media-query($on-palm) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -211,12 +211,12 @@
     .post-header {
       margin-bottom: 10px;
       .post-title {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         font-weight: bold;
         line-height: 1.6;
         word-break: keep-all;
-        @include media-query($on-laptop) {
-          font-size: 20px;
+        @include media-query($on-palm) {
+          font-size: 0.9rem;
         }
       }
       .post-subtitle {
@@ -232,14 +232,20 @@
     .content {
       @include link-underline;
       font-size: 1rem;
-      @include media-query($on-laptop) {
-        font-size: 14px;
+      @include media-query($on-palm) {
+        font-size: 0.7rem;
       }
       .more {
         font-weight: bold;
       }
     }
   }
+  .pagination {
+      @include media-query($on-palm) {
+        font-size: 0.7rem;
+      }
+    }
+
 }
 
 
@@ -252,7 +258,7 @@
 }
 
 .post-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   font-weight: bold;
   word-break: keep-all;
@@ -267,15 +273,10 @@
 
 .post-content {
   @include link-underline;
-  font-size: $base-font-size + 3px;
+  font-size: 1rem;
+
   margin-bottom: $spacing-unit;
   font-weight: $base-font-weight;
-  @include media-query($on-laptop) {
-    font-size: $base-font-size;
-    img {
-      width: 90%;
-    }
-  }
   line-height: 180%;
 
   h1, h2, h3, h4, h5, h6 { font-weight: bold }
@@ -283,6 +284,19 @@
   h2 { font-size: 1.3rem }
   h3 { font-size: 1.2rem; }
   h4, h5, h6 { font-size: 1.1rem }
+
+  @include media-query($on-palm) {
+    font-size: 0.8rem;
+    img {
+      width: 90%;
+    }
+    h1, h2, h3, h4, h5, h6 { font-weight: bold }
+    h1 { font-size: 1.3rem }
+    h2 { font-size: 1.2rem }
+    h3 { font-size: 1.1rem; }
+    h4, h5, h6 { font-size: 1rem }
+    code { font-size: 0.8rem; }
+  }
 
   table {
     margin: 0 auto;
