@@ -36,7 +36,7 @@ Rails 프레임워크는 컨벤션(관례)을 통해 암묵적으로 설정을 �
 |   Mouse    |       mice        |
 |   Person   |      people       |
 
-외래키(Foreign key)의 경우에도 단수형 이름으로 생성한다. (예: `user_id`, `order_id)<br/>
+외래키(Foreign key)의 경우에도 단수형 이름으로 생성한다. (예: `user_id`, `order_id`)<br/>
 주 키(Primary Key) 또한 기본적으로 `id` 를 사용한다.
 
 이외에도 다양한 규칙들이 있는데 [Rails Guide](https://guides.rubyonrails.org/active_record_basics.html)를 참고하면 된다.
