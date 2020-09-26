@@ -5,6 +5,7 @@ subtitle: "MYSQL 백업, 파일 전송, 파일 압축하기 등등.."
 date: 2017-07-31 14:41:42 +0900
 categories: 'dev'
 tags: [command, terminal]
+permalink: dev/2017/07/31/frequently-used-commands.html
 ---
 
 블로그에 글을 너무 안쓰기도 했고 매번 MYSQL 덤프 뜰때, 압축할때, 파일 전송할때 검색을 해보기도 해서 이 부분들을 정리하려고 한다.

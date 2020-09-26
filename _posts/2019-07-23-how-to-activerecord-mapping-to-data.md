@@ -4,6 +4,7 @@ title: ActiveRecord는 어떻게 Database의 컬럼과 매핑할까?
 date: 2019-07-23 19:00:17 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'rails'
+permalink: rails/2019/07/23/how-to-activerecord-mapping-to-data.html
 ---
 
 최근에 질문을 받았다.

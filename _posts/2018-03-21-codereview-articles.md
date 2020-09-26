@@ -4,6 +4,7 @@ title:  "코드 리뷰와 관련된 아티클 모음"
 date: 2018-03-21 17:52:21 +0900
 categories: 'dev'
 tags: [codereview, team, culture]
+permalink: dev/2018/03/21/codereview-articles.html
 ---
 
 최근의 IT기업들은 대부분 코드리뷰를 진행하고 있다.

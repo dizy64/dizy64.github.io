@@ -5,6 +5,7 @@ subtitle: "NGINX와 PHP 권한 문제 정리"
 date: 2017-08-24 12:30:16 +0900
 categories: 'dev'
 tags: [operation, linux, wordpress, nginx, php]
+permalink: dev/2017/08/24/migration-ec2-instance.html
 ---
 
 일상을 정리하기 위한 <a href="https://nadann.880322.com/" target="_blank">블로그</a>를 워드프레스로 만들었는데 파일 첨부가 안되는 문제때문에 고생했다.

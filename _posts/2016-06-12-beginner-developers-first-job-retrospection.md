@@ -6,6 +6,7 @@ date: 2016-06-12 17:05:22 +0900
 meta-image: "http://dizy64.github.io/images/carffeine.jpg"
 categories: 'review'
 tags: [회고, 개발팀, 개발]
+permalink: review/2016/06/12/beginner-developers-first-job-retrospection.html
 ---
 
 ### 첫 직장

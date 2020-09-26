@@ -5,6 +5,7 @@ subtitle: "codility.com 사용후기"
 date: 2016-06-14 16:56:51 +0900
 categories: 'review'
 tags: [이직, 코딩 테스트]
+permalink: review/2016/06/14/woowa-brothers-coding-test-review.html
 ---
 
 좋은 기회를 통해 우아한 형제들(배달의 민족)에 온라인 면접을 보게 되었다.<br/>

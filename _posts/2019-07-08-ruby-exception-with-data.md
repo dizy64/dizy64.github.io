@@ -4,6 +4,7 @@ title: Ruby에서 Exeception 처리시 데이터를 포함하여 처리하기
 date: 2019-07-08 19:00:17 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'ruby'
+permalink: ruby/2019/07/08/ruby-exception-with-data.html
 ---
 
 보통의 경우 Exeception은 메세지만 함께 보내서 처리합니다.<br/>

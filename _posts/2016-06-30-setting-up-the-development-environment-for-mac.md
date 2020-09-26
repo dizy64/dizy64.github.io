@@ -6,6 +6,7 @@ date: 2016-06-30 12:03:05 +0900
 meta-image: "http://dizy64.github.io/images/thumb_develop_env.jpg"
 categories: 'dev'
 tags: [mac, development environment, homebrew, development tools]
+permalink: dev/2016/06/30/setting-up-the-development-environment-for-mac.html
 ---
 
 ### XCODE 설치 및 Command Line tools 설치

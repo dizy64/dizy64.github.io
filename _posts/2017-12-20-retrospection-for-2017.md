@@ -5,6 +5,7 @@ subtitle: "작은 조직에서의 최선을 향한 노력, 그리고 퇴사. 새
 date: 2017-12-20 21:09:45 +0900
 categories: 'life'
 meta-image: "http://dizy64.github.io/images/retrospection-for-2017.jpg"
+permalink: life/2017/12/20/retrospection-for-2017.html
 ---
 
 다사다난했던 한 해였다.

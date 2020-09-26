@@ -4,6 +4,7 @@ title:  "Okky 미니 세미나 IT회사 탐방기 세미나 후기"
 date: 2018-02-28 14:10:21 +0900
 categories: 'review'
 tags: [okky, seminar, meetup]
+permalink: review/2018/02/28/okky-mini-seminar.html
 ---
 
 ![]({{ "/images/20180227/1.jpg" | absolute_url }})

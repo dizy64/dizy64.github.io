@@ -3,6 +3,7 @@ layout: post
 title: CircleCI에서 Rspec 테스트 결과를 파싱하지 못할 때
 date: 2019-06-24 22:11:07 +0900
 categories: 'rails'
+permalink: rails/2019/06/24/circleci-parse-error.html
 ---
 
 개인 프로젝트를 할때 항상 CircleCI의 도움을 한다.<br/>

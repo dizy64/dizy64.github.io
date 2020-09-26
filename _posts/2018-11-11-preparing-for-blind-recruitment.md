@@ -4,6 +4,7 @@ title:  "블라인드 채용 대회 준비 후기"
 date: 2018-11-11 22:18:35 +0900
 categories: 'dev'
 tags: [aws, devops, bmt]
+permalink: dev/2018/11/11/preparing-for-blind-recruitment.html
 ---
 
 내가 현재 재직 중인 그렙에서는 대회와 채용을 기반으로 한 코딩 테스트 솔루션을 개발하고 있다.

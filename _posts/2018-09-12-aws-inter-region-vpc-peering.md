@@ -4,6 +4,7 @@ title:  "AWS 다른 Region간의 peering 설정"
 date: 2018-09-12 19:08:21 +0900
 categories: 'dev'
 tags: [aws, devops]
+permalink: dev/2018/09/12/aws-inter-region-vpc-peering.html
 ---
 
 회사에서 EC2 인스턴스를 만드는데 해당 인스턴스 클래스를 서울 리전에서는 100대 밖에 늘릴 수 없다고 해서 500대의 용량이 있는 일본 서버를 함께 사용해야되는 상황이었다.

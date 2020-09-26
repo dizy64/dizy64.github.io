@@ -4,6 +4,7 @@ title: ActiveRecord에서 Postgresql의 RangeType 사용 후기
 date: 2019-02-19 22:40:15 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'dev'
+permalink: dev/2019/02/19/rails-range-type-using-postgresql.html
 ---
 
 회사에서 개발자 채용 서비스를 개발 중에 잡 포지션에 게시될 채용할 개발자의 경력(N년차) 설정과 관련된 데이터 타입을 이용할

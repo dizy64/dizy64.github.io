@@ -5,6 +5,7 @@ subtitle: "Rails의 정보를 한눈에 볼 수 있는 개발환경의 info page
 date: 2016-09-22 18:09:22 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'dev'
+permalink: dev/2016/09/22/Rails-Development-hidden-routes.html
 ---
 
 나는 보통 Rails에서 일부러 주소를 오타내서 라우트 정보를 확인하곤 했었는데
