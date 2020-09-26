@@ -134,10 +134,6 @@ blockquote {
         pre,
         code {
             font-family: $base-code-font-family;
-            font-size: 1rem;
-            @include media-query($on-palm) {
-                font-size: 0.7rem;
-            }
         }
         
         code {
@@ -150,9 +146,7 @@ blockquote {
             overflow-x: auto;
         
             > code {
-                border: 0;
-                padding-right: 0;
-                padding-left: 0;
+                padding: 0;
             }
         }
     }
