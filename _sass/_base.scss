@@ -128,27 +128,30 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
-    font-family: $base-code-font-family;
-    font-size: 1rem;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #fff;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: auto;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
+.highlighter-rouge {
+    div.highlight {
+        border-radius: 15px;
+        pre,
+        code {
+            font-family: $base-code-font-family;
+            font-size: 1rem;
+        }
+        
+        code {
+            padding: 1px 5px;
+        }
+        
+        pre {
+            padding: 15px;
+            border-radius: inherit;
+            overflow-x: auto;
+        
+            > code {
+                border: 0;
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
     }
 }
 

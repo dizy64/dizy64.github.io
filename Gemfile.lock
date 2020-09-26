@@ -253,6 +253,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  rouge
 
 BUNDLED WITH
    2.1.4
