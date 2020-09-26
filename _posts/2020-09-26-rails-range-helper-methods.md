@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rails의 시간 범위 메서드들
+title: Ruby on Rails의 시간 범위 관련 헬퍼 메서드
 date: 2020-09-26 16:44:24 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'Rails'
@@ -13,7 +13,7 @@ range = Time.current.beginning_of_day..Time.current.end_of_day
 Post.where(created_at: range)
 ```
 
-ActiveSupport에 시간 범위를 처리해주는 헬퍼 메서드를 이용하면 조금 더 쉽게 이를 해결 할 수 있다.
+이렇게 시작 날짜와 종료 날자를 범위로 기준을 잡아 조회를 하게 되는데, 이 중 자주 사용할 법한 것들을 ActiveSupport 에서 지원해주는 헬퍼가 있다.
 
 ## all_day() <a href="https://api.rubyonrails.org/classes/DateAndTime/Calculations.html#method-i-all_day)" rel="noreferrer" target="_blank">(Doc)</a>
 
@@ -64,5 +64,12 @@ Time.current.all_month
 # => Wed, 01 Apr 2020 00:00:00 KST +09:00..Tue, 30 Jun 2020 23:59:59 KST +09:00
 ```
 
+all_day의 구현체를 보면 결국 처음 우리가 사용한 문법과 동일하다. 헬퍼를 이용해도 실제 동작은 직접 호출하는 것과 다를 바 없겠지만, 훨씬 더 가독성 있게 접근할 수 있어서 편리하다.
+
+```ruby
+def all_day
+  beginning_of_day..end_of_day
+end
+```
 
 이외에도 날짜, 시간과 관련된 헬퍼 메서드들이 많으니 참고하면 좋다.
