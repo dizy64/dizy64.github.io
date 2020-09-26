@@ -15,6 +15,7 @@ url: "https://blog.dizy.dev" # the base hostname & protocol for your site
 twitter_username: dizy64
 github_username:  dizy64
 facebook_username: dizy64
+permalink: pretty
 
 # Build settings
 markdown: kramdown
