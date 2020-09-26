@@ -2,6 +2,7 @@
 layout: post
 title: Rails의 시간 범위 메서드들
 date: 2020-09-26 16:44:24 +0900
+meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'Rails'
 ---
 
