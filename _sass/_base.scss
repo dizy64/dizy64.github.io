@@ -152,6 +152,14 @@ blockquote {
     }
 }
 
+code.language-plaintext {
+  font-family: $base-code-font-family;
+  background: #002b36;
+  color: #93a1a1;
+  padding: 3px;
+  border-radius: 5px;
+}
+
 
 
 /**

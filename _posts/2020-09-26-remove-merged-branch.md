@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 사용하지 않는 브랜치 삭제하기
-subtitle: 머지된 브랜치 제거 
 date: 2020-09-26 10:40:00 +0900
 categories: 'develop'
 ---
