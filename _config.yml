@@ -25,5 +25,7 @@ plugins:
   - jekyll-paginate
   - jekyll-coffeescript
 
+highlighter: rouge
+
 bootstrap:
   assets: true
