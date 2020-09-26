@@ -214,6 +214,7 @@
         font-size: 1.3rem;
         font-weight: bold;
         line-height: 1.6;
+        word-break: keep-all;
         @include media-query($on-palm) {
           font-size: 0.9rem;
         }
@@ -221,6 +222,7 @@
       .post-subtitle {
         font-size: 0.9rem;
         font-weight: bold;
+        word-break: keep-all;
       }
       .post-meta {
         font-size: 0.6rem;
@@ -259,12 +261,14 @@
   font-size: 1.3rem;
   line-height: 1.5;
   font-weight: bold;
+  word-break: keep-all;
 }
 
 .post-subtitle {
   margin-top: -10px;
   font-size: 0.9rem;
   font-weight: bold;
+  word-break: keep-all;
 }
 
 .post-content {
@@ -329,6 +333,7 @@
         &.period {
           font-size: 0.7rem;
           color: #999;
+          word-break: keep-all;
         }
       }
     }
@@ -346,6 +351,7 @@
       q {
         margin: 15px;
         display: block;
+        word-break: keep-all;
       }
     }
   }
