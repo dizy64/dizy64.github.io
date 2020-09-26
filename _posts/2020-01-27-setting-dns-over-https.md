@@ -3,6 +3,7 @@ layout: post
 title: 크롬과 파이어폭스에서 DNS over HTTPS(DoH) 설정
 date: 2020-01-27 20:05:18 +0900
 categories: 'tools'
+permalink: tools/2020/01/27/setting-dns-over-https.html
 ---
 
 DNS over HTTPS(DoH)는 DNS 확인을 HTTPS 프로토콜로 처리하기 위한 통신 규약이다.<br/>

@@ -5,6 +5,7 @@ subtitle: "깃허브 페이지 호스팅을 통해 공짜로 블로그를 시작
 date:   2016-05-10 18:08:53 +0900
 categories: 'dev'
 tags: [jekyll, github pages]
+permalink: dev/2016/05/10/created-blog-using-github-pages-with-jekyll.html
 ---
 
 Github에서는 [Pages](https://pages.github.com/)라는 서비스를 제공하고 있다.

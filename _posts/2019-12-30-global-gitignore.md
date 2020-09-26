@@ -3,6 +3,7 @@ layout: post
 title: 모든 git 저장소에 적용되는 gitignore 만들기 
 date: 2019-12-30 21:58:18 +0900
 categories: 'development'
+permalink: development/2019/12/30/global-gitignore.html
 ---
 
 다양한 프로젝트를 하다보면 모든 프로젝트에서 Tracking 하지 않고 싶은 파일들이 있다.<br/>

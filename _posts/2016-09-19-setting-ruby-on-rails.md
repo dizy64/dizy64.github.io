@@ -6,6 +6,7 @@ date: 2016-09-19 14:06:22 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'dev'
 tags: [development environment, ruby, ruby on rails]
+permalink: dev/2016/09/19/setting-ruby-on-rails.html
 ---
 
 사실 맥에 기본적으로 루비가 설치되어있긴 한데 시스템 루비 사용을 권장하지 않는다. <a href="https://robots.thoughtbot.com/psa-do-not-use-system-ruby" target="_blank">PSA: Do not use system Ruby</a> 참고

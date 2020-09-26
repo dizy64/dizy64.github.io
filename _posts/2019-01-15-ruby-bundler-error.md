@@ -5,6 +5,7 @@ subtitle:  "can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotF
 date: 2019-01-15 22:38:40 +0900
 categories: 'dev'
 tags: [ruby, error]
+permalink: dev/2019/01/15/ruby-bundler-error.html
 ---
 
 새로 루비를 설치하고 `gem install bundler`로 번들러를 설치하면 2.0 버전으로 설치가 된다.

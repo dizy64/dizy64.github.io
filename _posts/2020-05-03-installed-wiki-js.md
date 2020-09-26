@@ -3,6 +3,7 @@ layout: post
 title: Wiki.js 설치하기 
 date: 2020-05-03 1:00:00 +0900
 categories: 'tools'
+permalink: tools/2020/05/02/installed-wiki-js.html
 ---
 
 최근 블로그에 글을 쓰지 않는 문제점에 대해서 고민하다 대안으로 위키를 써보는건 어떨까? 하는 생각을 하고 있던 차에 wiki.js 프로젝트를 추천받았다.<br/>

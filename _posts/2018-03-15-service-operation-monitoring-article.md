@@ -4,6 +4,7 @@ title:  "서비스 운영을 하기 위한 모니터링 시스템에 대한 아�
 date: 2018-03-15 16:41:21 +0900
 categories: 'operation'
 tags: [log stash, fluentd, operation]
+permalink: operation/2018/03/15/service-operation-monitoring-article.html
 ---
 
 회사에서 각종 이벤트에 서버를 증설을 하고 모니터링을 해야할 일이 많은데 비해 로그는 제각각 서버에 있어서 분석하기 어려워서 고민하던 차에 몇가지 아티클들을 검색해보았고 똑같이 고민하는 곳이 있을 것 같아서 공유해봅니다.

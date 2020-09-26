@@ -4,6 +4,7 @@ title:  "개발팀을 위한 나의 작은 노력들"
 date: 2018-05-26 23:17:21 +0900
 categories: 'dev'
 tags: [team, culture]
+permalink: dev/2018/05/26/my-little-practice-for-the-development-team.html
 ---
 
 이직한 회사에 입사한지 6개월 정도 지났다.

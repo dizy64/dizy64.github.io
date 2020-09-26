@@ -3,6 +3,7 @@ layout: post
 title: 도메인 변경 안내 및 최근 근황 
 date: 2019-04-17 21:47:15 +0900
 categories: 'notice'
+permalink: notice/2019/04/17/change-domain-and-notice.html
 ---
 
 안녕하세요.<br/>

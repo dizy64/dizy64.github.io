@@ -5,6 +5,7 @@ subtitle: "Client with the currently selected authenticator does not support any
 date: 2018-02-06 15:24:21 +0900
 categories: 'dev'
 tags: [nginx, apache, https, letsencrypt, certificate]
+permalink: dev/2018/02/06/certbot-error.html
 ---
 
 

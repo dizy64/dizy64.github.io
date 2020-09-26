@@ -3,6 +3,7 @@ layout: post
 title: MacOS 스크린샷 저장 위치 변경하기
 date: 2020-04-13 23:02:00 +0900
 categories: 'tools'
+permalink: tools/2020/04/13/mac-screen-capture-other-directory.html
 ---
 
 기본적으로 맥에서 [기본 기능을 이용하여 스크린 샷](https://support.apple.com/ko-kr/guide/mac-help/mh26783/mac)을 하게 되면 바탕 화면에 저장이 된다.

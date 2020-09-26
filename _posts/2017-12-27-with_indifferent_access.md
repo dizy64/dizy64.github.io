@@ -6,6 +6,7 @@ date: 2017-12-27 23:24:21 +0900
 categories: 'dev'
 meta-image: "https://blog.dizy.dev/images/ruby.png"
 tags: [ruby, ruby on Rails, hash]
+permalink: dev/2017/12/27/with_indifferent_access.html
 ---
 
 우연히 대표님의 코드를 보고 처음 본 메서드를 찾아보다 발견한 메서드.

@@ -4,6 +4,7 @@ title:  "Jekyll에 Bootstrap 적용기"
 date:   2016-05-11 01:22:04 +0900
 categories: 'dev'
 tags: [jekyll, bootstrap]
+permalink: dev/2016/05/10/jekyll-blog-with-bootstrap.html
 ---
 
 디자인 센스가 없는 개발자가 의지할 곳이라고는 Bootstrap 밖에 없으므로..

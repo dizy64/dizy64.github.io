@@ -4,6 +4,7 @@ title: Ruby 2.4 미만 버전 설치시 openssl 의존성 문제 발생시
 date: 2019-11-12 23:31:18 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'rails'
+permalink: rails/2019/11/12/ruby-2-4-openssl-dependency.html
 ---
 
 > The Ruby openssl extension was not compiled.<br/>

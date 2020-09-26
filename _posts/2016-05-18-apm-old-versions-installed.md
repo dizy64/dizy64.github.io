@@ -5,6 +5,7 @@ subtitle: "HTTPD 2.2.0 + MYSQL 4.0.27 + PHP 4.4.7 설치를 향한 발버둥"
 date: 2016-05-18 01:25:16 +0900
 categories: 'operator'
 tags: [apm, docker, http, mysql, php, 제로보드, operation]
+permalink: operator/2016/05/17/apm-old-versions-installed.html
 ---
 
 뜬금없이 제로보드가 왠 말이냐고 할 수 있지만 나는 10년 전통을 자랑하는  제로보드 기반의 커뮤니티 사이트를 운영하고 있다.
