@@ -233,7 +233,7 @@
       @include link-underline;
       font-size: 1rem;
       @include media-query($on-palm) {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
       }
       .more {
         font-weight: bold;
@@ -286,7 +286,7 @@
   h4, h5, h6 { font-size: 1.1rem }
 
   @include media-query($on-palm) {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     img {
       width: 90%;
     }
@@ -295,7 +295,7 @@
     h2 { font-size: 1.2rem }
     h3 { font-size: 1.1rem; }
     h4, h5, h6 { font-size: 1rem }
-    code { font-size: 0.8rem; }
+    code { font-size: 0.9rem; }
   }
 
   table {
