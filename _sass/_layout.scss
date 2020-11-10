@@ -258,7 +258,7 @@
 }
 
 .post-title {
-  font-size: 1.3rem;
+  font-size: 2rem;
   line-height: 1.5;
   font-weight: bold;
   word-break: keep-all;
@@ -266,7 +266,7 @@
 
 .post-subtitle {
   margin-top: -10px;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   font-weight: bold;
   word-break: keep-all;
 }
@@ -280,22 +280,17 @@
   line-height: 180%;
 
   h1, h2, h3, h4, h5, h6 { font-weight: bold }
-  h1 { font-size: 1.4rem }
-  h2 { font-size: 1.3rem }
-  h3 { font-size: 1.2rem; }
-  h4, h5, h6 { font-size: 1.1rem }
+  h1 { font-size: 1.8rem }
+  h2 { font-size: 1.5rem }
+  h3 { font-size: 1.3rem; }
+  h4 { font-size: 1.1rem; }
+  h5, h6 { font-size: 1rem }
+  code { font-size: 1rem; }
 
   @include media-query($on-palm) {
-    font-size: 0.9rem;
     img {
       width: 90%;
     }
-    h1, h2, h3, h4, h5, h6 { font-weight: bold }
-    h1 { font-size: 1.3rem }
-    h2 { font-size: 1.2rem }
-    h3 { font-size: 1.1rem; }
-    h4, h5, h6 { font-size: 1rem }
-    code { font-size: 0.9rem; }
   }
 
   table {
