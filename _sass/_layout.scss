@@ -215,9 +215,6 @@
         font-weight: bold;
         line-height: 1.6;
         word-break: keep-all;
-        @include media-query($on-palm) {
-          font-size: 0.9rem;
-        }
       }
       .post-subtitle {
         font-size: 0.9rem;
@@ -232,20 +229,11 @@
     .content {
       @include link-underline;
       font-size: 1rem;
-      @include media-query($on-palm) {
-        font-size: 0.9rem;
-      }
       .more {
         font-weight: bold;
       }
     }
   }
-  .pagination {
-      @include media-query($on-palm) {
-        font-size: 0.7rem;
-      }
-    }
-
 }
 
 
@@ -273,13 +261,11 @@
 
 .post-content {
   @include link-underline;
-  font-size: 1rem;
 
   margin-bottom: $spacing-unit;
   font-weight: $base-font-weight;
   line-height: 180%;
 
-  h1, h2, h3, h4, h5, h6 { font-weight: bold }
   h1 { font-size: 1.8rem }
   h2 { font-size: 1.5rem }
   h3 { font-size: 1.3rem; }
