@@ -275,6 +275,11 @@
     font-size: 1rem;
     padding: 5px;
   }
+  span.caption {
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+  }
 
   @include media-query($on-palm) {
     img {
