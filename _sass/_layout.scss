@@ -21,7 +21,7 @@
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 2rem;
   font-weight: 800;
   line-height: 56px;
   margin-bottom: 0;
@@ -112,7 +112,7 @@
 }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: 1.8rem;
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .footer-col-wrapper {
-  font-size: 15px;
+  font-size: 1rem;
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
@@ -180,27 +180,9 @@
   padding: $spacing-unit 0;
 }
 
-.page-heading {
-  font-size: 20px;
-}
-
-.post-list {
-  margin-left: 0;
-  list-style: none;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
-}
-
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
-}
-
-.post-link {
-  display: block;
-  font-size: 24px;
 }
 
 /**
@@ -246,7 +228,7 @@
 }
 
 .post-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   font-weight: bold;
   word-break: keep-all;
@@ -270,8 +252,18 @@
   h1 { font-size: 1.8rem; }
   h2 { font-size: 1.5rem ;}
   h3 { font-size: 1.3rem; }
-  h4 { font-size: 1.1rem; }
-  h5, h6 { font-size: 1rem; }
+  h4 { font-size: 1.2rem; }
+  h5 { font-size: 1.1rem; }
+  h6 { font-size: 1rem; }
+
+  @include media-query($on-palm) {
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.4rem ;}
+    h3 { font-size: 1.3rem; }
+    h4 { font-size: 1.2rem; }
+    h5 { font-size: 1.1rem; }
+    h6 { font-size: 1rem; } 
+  }
   code {
     font-size: 1rem;
     padding: 5px;

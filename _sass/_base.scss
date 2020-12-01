@@ -23,6 +23,9 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    @include media-query($on-palm) {
+        font: $base-font-weight #{$base-mobile-font-size}/#{$base-line-height} $base-font-family;
+    }
 }
 
 
@@ -188,7 +191,6 @@ code.language-plaintext {
  * Clearfix
  */
 %clearfix {
-
     &:after {
         content: "";
         display: table;
@@ -202,7 +204,6 @@ code.language-plaintext {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
