@@ -131,6 +131,10 @@ blockquote {
 /**
  * Code formatting
  */
+code {
+    font-family: $base-code-font-family;
+}
+
 .highlighter-rouge {
     div.highlight {
         border-radius: 15px;
@@ -155,13 +159,7 @@ blockquote {
     }
 }
 
-code.language-plaintext {
-  font-family: $base-code-font-family;
-  background: #002b36;
-  color: #93a1a1;
-  padding: 3px;
-  border-radius: 5px;
-}
+
 
 
 
