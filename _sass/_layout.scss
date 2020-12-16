@@ -194,13 +194,13 @@
       margin-bottom: 10px;
       .post-title {
         font-size: 1.3rem;
-        font-weight: bold;
+        font-weight: $header-font-weight;
         line-height: 1.6;
         word-break: keep-all;
       }
       .post-subtitle {
         font-size: 0.9rem;
-        font-weight: bold;
+        font-weight: $header-font-weight;
         word-break: keep-all;
       }
       .post-meta {
@@ -212,7 +212,7 @@
       @include link-underline;
       font-size: 1rem;
       .more {
-        font-weight: bold;
+        font-weight: $header-font-weight;
       }
     }
   }
@@ -230,14 +230,14 @@
 .post-title {
   font-size: 1.5rem;
   line-height: 1.5;
-  font-weight: bold;
+  font-weight: $header-font-weight;
   word-break: keep-all;
 }
 
 .post-subtitle {
   margin-top: -10px;
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: $header-font-weight;
   word-break: keep-all;
 }
 
