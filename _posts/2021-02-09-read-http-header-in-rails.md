@@ -2,6 +2,7 @@
 layout: post
 title: Rails에서 HTTP HEADER에 접근하기
 date: 2021-02-09 20:52:00 +0900
+meta-image: "https://blog.dizy.dev/images/ruby.png"
 categories: 'rails'
 ---
 
