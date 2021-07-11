@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: dizy-blog:latest
+    command: bundle exec jekyll serve --host=0.0.0.0
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/app
+      - bundle-cache:/usr/local/bundle
+volumes:
+  bundle-cache:
