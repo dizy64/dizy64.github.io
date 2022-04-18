@@ -135,7 +135,14 @@ blockquote {
  * Code formatting
  */
 code {
-    font-family: $base-code-font-family;
+    font-family: $base-font-family;
+    background-color: #002b36;
+    color: #93a1a1;
+    padding: 3px 5px;
+    -moz-border-radius: $inline-code-bacground-round;
+    -khtml-border-radius: $inline-code-bacground-round;
+    -webkit-border-radius: $inline-code-bacground-round;
+    border-radius: $inline-code-bacground-round; 
 }
 
 .highlighter-rouge {
