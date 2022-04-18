@@ -2,7 +2,7 @@
 layout: post
 title: 서초 루비에 다녀왔습니다. 
 date: 2019-06-20 00:14:27 +0900
-meta-image: "http://dizy64.github.io/images/20190619-02.jpg"
+meta-image: "http://blog.dizy.dev/images/20190619-02.jpg"
 categories: 'review'
 permalink: review/2019/06/19/seocho-ruby.html
 ---

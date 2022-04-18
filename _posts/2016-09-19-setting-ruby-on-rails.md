@@ -13,7 +13,7 @@ permalink: dev/2016/09/19/setting-ruby-on-rails.html
 
 그러므로 루비를 설치하기 위해 brew를 설치한다.
 
-brew 설치 관련 내용은 <a href="http://dizy64.github.io/dev/2016/06/30/setting-up-the-development-environment-for-mac.html">맥 개발 환경 설정하기</a> 글을 참고한다.
+brew 설치 관련 내용은 <a href="http://blog.dizy.dev/dev/2016/06/30/setting-up-the-development-environment-for-mac.html">맥 개발 환경 설정하기</a> 글을 참고한다.
 
 ## rbenv 설치
 

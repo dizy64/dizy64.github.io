@@ -3,7 +3,7 @@ layout: post
 title:  "첫 직장을 그만두며.."
 subtitle: "첫 직장에 대한 회고"
 date: 2016-06-12 17:05:22 +0900
-meta-image: "http://dizy64.github.io/images/carffeine.jpg"
+meta-image: "http://blog.dizy.dev/images/carffeine.jpg"
 categories: 'review'
 tags: [회고, 개발팀, 개발]
 permalink: review/2016/06/12/beginner-developers-first-job-retrospection.html
