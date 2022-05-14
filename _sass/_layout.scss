@@ -21,7 +21,7 @@
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 56px;
   margin-bottom: 0;
@@ -193,14 +193,14 @@
     .post-header {
       margin-bottom: 10px;
       .post-title {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: $header-font-weight;
         line-height: 1.6;
         word-break: keep-all;
       }
       .post-subtitle {
-        font-size: 0.9rem;
-        font-weight: $header-font-weight;
+        font-size: 1rem;
+        font-weight: $base-font-weight;
         word-break: keep-all;
       }
       .post-meta {
@@ -228,7 +228,7 @@
 }
 
 .post-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.5;
   font-weight: $header-font-weight;
   word-break: keep-all;
@@ -236,8 +236,8 @@
 
 .post-subtitle {
   margin-top: -10px;
-  font-size: 1.3rem;
-  font-weight: $header-font-weight;
+  font-size: 1rem;
+  font-weight: $base-font-weight;
   word-break: keep-all;
 }
 
