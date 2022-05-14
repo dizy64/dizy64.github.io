@@ -197,14 +197,16 @@
         font-weight: $header-font-weight;
         line-height: 1.6;
         word-break: keep-all;
+        margin-bottom: 0px;
       }
       .post-subtitle {
         font-size: 1rem;
         font-weight: $base-font-weight;
         word-break: keep-all;
+        margin-bottom: 0px;
       }
       .post-meta {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         margin-bottom: 0px;
       }
     }
