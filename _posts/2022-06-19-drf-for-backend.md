@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[책 서평] 백엔드를 위한 Django REST Framework with 파이썬"
-date: 2022-05-22 15:00:00 +0900
+date: 2022-06-19 22:00:00 +0900
 categories: 'review'
 ---
 
