@@ -193,6 +193,9 @@
     .post-header {
       margin-bottom: 10px;
       .post-title {
+        @include media-query($on-palm) {
+          font-size: 1.2rem;
+        }
         font-size: 1.5rem;
         font-weight: $header-font-weight;
         line-height: 1.6;
@@ -230,6 +233,9 @@
 }
 
 .post-title {
+  @include media-query($on-palm) {
+    font-size: 1.3rem;
+  }
   font-size: 2rem;
   line-height: 1.5;
   font-weight: $header-font-weight;
