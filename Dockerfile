@@ -1,4 +1,4 @@
-FROM ruby:2.7.3-alpine
+FROM ruby:2.7.4-alpine
 
 RUN apk update && apk add --virtual build-dependencies build-base
 
