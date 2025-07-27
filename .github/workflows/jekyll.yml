@@ -1,9 +1,7 @@
-name: Build and Deploy Jekyll with Plugins
+name: Build and Deploy Jekyll with Custom Plugins
 
 on:
   push:
-    branches: [ master, main ]
-  pull_request:
     branches: [ master, main ]
 
 permissions:
@@ -26,7 +24,7 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.1'
+        ruby-version: '3.2'
         bundler-cache: true
 
     - name: Setup Pages
@@ -35,12 +33,12 @@ jobs:
 
     - name: Install dependencies
       run: |
-        gem install bundler
+        bundle config set frozen false
         bundle install
 
-    - name: Build with Jekyll
+    - name: Build with Jekyll (with custom plugins)
       run: |
-        bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
       env:
         JEKYLL_ENV: production
 
