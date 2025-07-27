@@ -25,7 +25,7 @@ permalink: /categories/
                 <span class="post-count">{{ post_count }}개 포스트</span>
               </div>
               <div class="category-posts">
-                {% for post in posts_in_category limit: 3 %}
+                {% for post in posts_in_category %}
                   <div class="category-post-item">
                     <a href="{{ post.url | prepend: site.baseurl }}" class="category-post-link">
                       {{ post.title }}
@@ -33,11 +33,6 @@ permalink: /categories/
                     <span class="category-post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
                   </div>
                 {% endfor %}
-                <div class="category-view-all">
-                  <a href="{{ '/categories/' | append: category | append: '/' | prepend: site.baseurl }}" class="view-all-link">
-                    전체 {{ post_count }}개 포스트 보기 →
-                  </a>
-                </div>
               </div>
             </div>
           {% endif %}
