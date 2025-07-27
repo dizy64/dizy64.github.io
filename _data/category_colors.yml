@@ -1,0 +1,29 @@
+# 카테고리별 배지 색상 설정
+# 새로운 카테고리를 추가하거나 색상을 변경할 때 이 파일만 수정하면 됩니다.
+# 색상 형식: [start_color, end_color] (CSS gradient용)
+
+# 개발 관련
+dev: ["#2563eb", "#3b82f6"]          # 파란색 - 개발 일반
+development: ["#2563eb", "#3b82f6"]  # 파란색 - 개발 일반
+
+# 언어/프레임워크별
+rails: ["#dc2626", "#ef4444"]        # 빨간색 - Ruby on Rails
+ruby: ["#dc2626", "#ef4444"]         # 빨간색 - Ruby
+Rails: ["#dc2626", "#ef4444"]        # 빨간색 - Ruby on Rails (대문자)
+python: ["#eab308", "#f59e0b"]       # 노란색 - Python
+django: ["#eab308", "#f59e0b"]       # 노란색 - Django
+docker: ["#0ea5e9", "#38bdf8"]       # 하늘색 - Docker
+
+# 카테고리별
+tools: ["#059669", "#10b981"]        # 초록색 - 도구
+review: ["#7c3aed", "#8b5cf6"]       # 보라색 - 리뷰
+operation: ["#ea580c", "#f97316"]    # 주황색 - 운영
+operator: ["#ea580c", "#f97316"]     # 주황색 - 운영
+life: ["#db2777", "#ec4899"]         # 분홍색 - 라이프
+essay: ["#db2777", "#ec4899"]        # 분홍색 - 에세이
+notice: ["#6b7280", "#9ca3af"]       # 회색 - 공지
+blog: ["#8b5a2b", "#a16207"]         # 갈색 - 블로그
+co-work: ["#16a34a", "#22c55e"]      # 연두색 - 협업
+
+# 기본값 (카테고리가 정의되지 않은 경우)
+default: ["#4b5563", "#6b7280"]      # 기본 회색

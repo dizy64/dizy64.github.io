@@ -2,7 +2,7 @@
 layout: post
 title:  "블라인드 채용 대회 준비 후기"
 date: 2018-11-11 22:18:35 +0900
-categories: 'dev'
+categories: 'development'
 tags: [aws, devops, bmt]
 permalink: dev/2018/11/11/preparing-for-blind-recruitment.html
 ---

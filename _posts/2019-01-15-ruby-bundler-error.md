@@ -3,7 +3,7 @@ layout: post
 title: Bundler 2.0 업데이트 후 기존 버전에서 에러나는 문제
 subtitle:  "can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException) 에러 발생시 처리 방법"
 date: 2019-01-15 22:38:40 +0900
-categories: 'dev'
+categories: 'development'
 tags: [ruby, error]
 permalink: dev/2019/01/15/ruby-bundler-error.html
 ---

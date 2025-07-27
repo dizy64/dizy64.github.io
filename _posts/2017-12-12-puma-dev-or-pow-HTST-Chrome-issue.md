@@ -2,7 +2,7 @@
 layout: post
 title:  "크롬에서 HSTS를 통해 .dev 도메인을 HTTPS로 강제로 전환하는 이슈"
 date: 2017-12-12 09:27:45 +0900
-categories: 'dev'
+categories: 'development'
 tags: [HSTS, https, puma-pow, pow]
 permalink: dev/2017/12/12/puma-dev-or-pow-HTST-Chrome-issue.html
 ---

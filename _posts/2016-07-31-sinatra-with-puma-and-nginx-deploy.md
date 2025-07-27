@@ -2,7 +2,7 @@
 layout: post
 title:  "Sinatra 프로젝트 배포하기"
 date: 2016-07-31 23:18:35 +0900
-categories: 'dev'
+categories: 'ruby'
 tags: [sinatra, deploy, operation]
 permalink: dev/2016/07/31/sinatra-with-puma-and-nginx-deploy.html
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "AWS 서울 리전과 페이스북 로그인 이슈"
 subtitle: "Facebook Oauth 지연 관련 문제"
 date: 2017-12-05 22:35:12 +0900
-categories: 'dev'
+categories: 'development'
 tags: [AWS, facebook, oauth]
 permalink: dev/2017/12/05/aws-seoul-region-facebook-issue.html
 ---

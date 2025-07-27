@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 
   {% include head.html %}
 
-  <body>
+  <body class="container">
 
     {% include header.html %}
 
@@ -14,6 +14,52 @@
     </div>
 
     {% include footer.html %}
+
+    <script>
+      // 포스트 카드 클릭 기능
+      document.addEventListener('DOMContentLoaded', function() {
+        const clickableCards = document.querySelectorAll('.post-card-clickable');
+        
+        clickableCards.forEach(function(card) {
+          const href = card.getAttribute('data-href');
+          let touchStartTime;
+          let hasMoved = false;
+          
+          // 터치 시작
+          card.addEventListener('touchstart', function(e) {
+            touchStartTime = Date.now();
+            hasMoved = false;
+            card.classList.add('touch-feedback');
+          });
+          
+          // 터치 이동 (스와이프 감지)
+          card.addEventListener('touchmove', function(e) {
+            hasMoved = true;
+            card.classList.remove('touch-feedback');
+          });
+          
+          // 터치 종료
+          card.addEventListener('touchend', function(e) {
+            const touchDuration = Date.now() - touchStartTime;
+            card.classList.remove('touch-feedback');
+            
+            // 150ms 이내의 짧은 터치이고 움직이지 않았다면 클릭으로 간주
+            if (touchDuration < 150 && !hasMoved) {
+              e.preventDefault();
+              window.location.href = href;
+            }
+          });
+          
+          // 마우스 클릭 (데스크톱)
+          card.addEventListener('click', function(e) {
+            // 링크나 버튼이 아닌 경우에만 이동
+            if (!e.target.closest('a, button')) {
+              window.location.href = href;
+            }
+          });
+        });
+      });
+    </script>
 
   </body>
 

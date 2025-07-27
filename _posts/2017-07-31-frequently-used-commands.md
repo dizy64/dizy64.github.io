@@ -3,7 +3,7 @@ layout: post
 title:  "내가 자주 사용하는 명령어 정리"
 subtitle: "MYSQL 백업, 파일 전송, 파일 압축하기 등등.."
 date: 2017-07-31 14:41:42 +0900
-categories: 'dev'
+categories: 'development'
 tags: [command, terminal]
 permalink: dev/2017/07/31/frequently-used-commands.html
 ---

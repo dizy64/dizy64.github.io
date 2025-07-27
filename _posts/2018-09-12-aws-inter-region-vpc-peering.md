@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS 다른 Region간의 peering 설정"
 date: 2018-09-12 19:08:21 +0900
-categories: 'dev'
+categories: 'development'
 tags: [aws, devops]
 permalink: dev/2018/09/12/aws-inter-region-vpc-peering.html
 ---

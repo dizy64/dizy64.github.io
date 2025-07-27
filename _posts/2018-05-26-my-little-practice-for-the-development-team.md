@@ -2,7 +2,7 @@
 layout: post
 title:  "개발팀을 위한 나의 작은 노력들"
 date: 2018-05-26 23:17:21 +0900
-categories: 'dev'
+categories: 'development'
 tags: [team, culture]
 permalink: dev/2018/05/26/my-little-practice-for-the-development-team.html
 ---

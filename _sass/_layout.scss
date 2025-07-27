@@ -104,6 +104,17 @@
 
 
 /**
+ * Clearfix placeholder
+ */
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/**
  * Site footer
  */
 .site-footer {

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="main">
+  <div class="main-content">
+    <a href="{{ '/categories/' | prepend: site.baseurl }}" class="back-button">
+      ← 카테고리 목록으로
+    </a>
+    
+    <div class="intro">
+      <div class="category-intro">
+        {% include category_badge.html category=page.category %}
+        <h1 class="intro-title">{{ page.category | capitalize }} 카테고리</h1>
+      </div>
+      <p class="intro-description">{{ page.category }} 관련 포스트 {{ page.posts.size }}개</p>
+    </div>
+
+    <ul class="post-list">
+      {% for post in page.posts %}
+        <li class="post-card-clickable" data-href="{{ post.url | prepend: site.baseurl }}">
+          <div class="post-meta">
+            {% include category_badge.html category=post.categories.first %}
+            <span class="post-date">{{ post.date | date: "%Y년 %m월 %d일" }}</span>
+          </div>
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h3>
+          {% if post.excerpt %}
+            <div class="post-description">
+              {{ post.excerpt | strip_html | truncatewords: 50 }}
+            </div>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -3,7 +3,7 @@ layout: post
 title:  "Jekyll를 이용하여 Github Pages에 블로그 구동하기"
 subtitle: "깃허브 페이지 호스팅을 통해 공짜로 블로그를 시작해보자."
 date:   2016-05-10 18:08:53 +0900
-categories: 'dev'
+categories: 'development'
 tags: [jekyll, github pages]
 permalink: dev/2016/05/10/created-blog-using-github-pages-with-jekyll.html
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll에 Bootstrap 적용기"
 date:   2016-05-11 01:22:04 +0900
-categories: 'dev'
+categories: 'development'
 tags: [jekyll, bootstrap]
 permalink: dev/2016/05/10/jekyll-blog-with-bootstrap.html
 ---

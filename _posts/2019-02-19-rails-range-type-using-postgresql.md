@@ -3,7 +3,7 @@ layout: post
 title: ActiveRecord에서 Postgresql의 RangeType 사용 후기
 date: 2019-02-19 22:40:15 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
-categories: 'dev'
+categories: 'development'
 permalink: dev/2019/02/19/rails-range-type-using-postgresql.html
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "몽고 DB 백업 및 복구 스크립트 작성하기"
 date: 2016-08-05 14:06:22 +0900
-categories: 'dev'
+categories: 'development'
 tags: [mongodb, ruby, dump, ruby on rails]
 permalink: dev/2016/08/05/mongodb-backup-and-restore.html
 ---

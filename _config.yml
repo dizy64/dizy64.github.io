@@ -24,8 +24,13 @@ plugins:
 #  - jekyll-bootstrap-sass
   - jekyll-paginate
   - jekyll-coffeescript
+  - jekyll-redirect-from
 
 highlighter: rouge
+
+# Disable GitHub Pages default theme
+theme: null
+remote_theme: null
 
 bootstrap:
   assets: true

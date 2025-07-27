@@ -3,7 +3,7 @@ layout: post
 title: Ruby on Rails의 시간 범위 관련 헬퍼 메서드
 date: 2020-09-26 16:44:24 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
-categories: 'Rails'
+categories: 'rails'
 ---
 
 ActiveRecord의 ORM을 이용하여 기간에 대한 쿼리를 사용하는 경우가 종종 있다.

@@ -3,7 +3,7 @@ layout: post
 title:  "도커를 이용하여 제로보드 환경 구성하기"
 subtitle: "HTTPD 2.2.0 + MYSQL 4.0.27 + PHP 4.4.7 설치를 향한 발버둥"
 date: 2016-05-18 01:25:16 +0900
-categories: 'operator'
+categories: 'operation'
 tags: [apm, docker, http, mysql, php, 제로보드, operation]
 permalink: operator/2016/05/17/apm-old-versions-installed.html
 ---

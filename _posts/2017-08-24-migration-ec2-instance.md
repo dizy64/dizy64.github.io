@@ -3,7 +3,7 @@ layout: post
 title:  "싱가폴 리전에 있는 EC2 인스턴스 서울로 이전하기"
 subtitle: "AWS EC2 리전 옮기기"
 date: 2017-08-24 18:30:21 +0900
-categories: 'dev'
+categories: 'development'
 tags: [operation, AWS, region]
 permalink: dev/2017/08/24/wordpress-file-upload-issue.html
 ---

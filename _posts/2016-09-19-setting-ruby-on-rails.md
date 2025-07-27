@@ -4,7 +4,7 @@ title:  "OS X에서 Ruby on Rails 개발 환경 세팅하기"
 subtitle: "이거슨 내가 필요해서 작성하는 세팅"
 date: 2016-09-19 14:06:22 +0900
 meta-image: "https://blog.dizy.dev/images/ruby.png"
-categories: 'dev'
+categories: 'rails'
 tags: [development environment, ruby, ruby on rails]
 permalink: dev/2016/09/19/setting-ruby-on-rails.html
 ---

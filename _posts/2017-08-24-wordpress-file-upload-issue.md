@@ -3,7 +3,7 @@ layout: post
 title:  "워드프레스 이미지 첨부 안되는 문제 해결하기"
 subtitle: "NGINX와 PHP 권한 문제 정리"
 date: 2017-08-24 12:30:16 +0900
-categories: 'dev'
+categories: 'development'
 tags: [operation, linux, wordpress, nginx, php]
 permalink: dev/2017/08/24/migration-ec2-instance.html
 ---

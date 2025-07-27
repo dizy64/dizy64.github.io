@@ -2,7 +2,7 @@
 layout: post
 title: 사용하지 않는 브랜치 삭제하기
 date: 2020-09-26 10:40:00 +0900
-categories: 'develop'
+categories: 'development'
 ---
 
 이미 리뷰를 통해 머지되었지만, 로컬에는 남아있는 브랜치를 정리하기 위해서 이미 머지된 브랜치들을 찾아서 삭제하도록 하는 방법을 찾아보았다.

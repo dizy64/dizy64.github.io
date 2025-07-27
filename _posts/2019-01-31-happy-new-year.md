@@ -2,7 +2,7 @@
 layout: post
 title: 새해 인사 및 주저리 주저리
 date: 2019-01-31 01:05:15 +0900
-categories: 'blog'
+categories: 'notice'
 permalink: blog/2019/01/30/happy-new-year.html
 ---
 

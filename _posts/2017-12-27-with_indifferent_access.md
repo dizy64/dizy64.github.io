@@ -3,7 +3,7 @@ layout: post
 title:  "레일즈에서 Hash 접근을 심볼과 문자열 동시에 할 수 있게하기"
 subtitle: "with_indifferent_access 메서드 이야기."
 date: 2017-12-27 23:24:21 +0900
-categories: 'dev'
+categories: 'rails'
 meta-image: "https://blog.dizy.dev/images/ruby.png"
 tags: [ruby, ruby on Rails, hash]
 permalink: dev/2017/12/27/with_indifferent_access.html

@@ -1,0 +1,13 @@
+{% comment %}
+카테고리 배지 컴포넌트
+사용법: {% include category_badge.html category="dev" %}
+{% endcomment %}
+
+{% assign category = include.category | default: "default" %}
+{% assign colors = site.data.category_colors[category] | default: site.data.category_colors["default"] %}
+{% assign start_color = colors[0] %}
+{% assign end_color = colors[1] %}
+
+<span class="badge" style="background: linear-gradient(135deg, {{ start_color }}, {{ end_color }});">
+  {{ category }}
+</span>
