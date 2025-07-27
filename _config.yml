@@ -8,6 +8,7 @@
 # Site settings
 title: Epilogue
 email: i@dizy.me
+author: DizY
 description: > # this means to ignore newlines until "baseurl:"
   내가 경험하고 느낀 것을 작성하게 될 공간
 baseurl: "" # the subpath of your site, e.g. /blog

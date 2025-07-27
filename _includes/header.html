@@ -1,6 +1,7 @@
 <header class="site-header">
   <div class="wrapper">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <span class="site-description">{{ site.description }} by {{ site.author }}</span>
     <nav class="site-nav">
       <a class="page-link{% if page.url == '/' or page.url == '/index.html' %} active{% endif %}" href="{{ site.baseurl }}/">홈</a>
       <a class="page-link{% if page.url contains '/categories/' %} active{% endif %}" href="{{ '/categories/' | prepend: site.baseurl }}">카테고리</a>
