@@ -3,24 +3,91 @@ layout: default
 ---
 
 <div class="home">
-  <!-- This loops through the paginated posts -->
-  {% for post in paginator.posts %}
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time> / <span itemprop="category">{{ post.categories }}</span> {% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
-      </header>
-    </article>
+  <div class="intro">
+    <p>내가 경험하고 느낀 것을 작성하게 될 공간</p>
+  </div>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <div class="post-meta">
+          <span class="badge">{{ post.categories | first | default: "blog" }}</span>
+          <span class="post-date">{{ post.date | date: "%Y년 %m월 %d일" }}</span>
+        </div>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h3>
+        {% if post.excerpt %}
+          {% assign clean_excerpt = post.excerpt | strip_html | strip_newlines | replace: '  ', ' ' | strip %}
+          {% if clean_excerpt != "" %}
+            <p class="post-description">{{ clean_excerpt | truncate: 120 }}</p>
+          {% else %}
+            {% assign content_preview = post.content | strip_html | strip_newlines | replace: '  ', ' ' | strip | truncate: 120 %}
+            {% if content_preview != "" %}
+              <p class="post-description">{{ content_preview }}</p>
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Pagination links -->
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.page > 1 %}
+      <a href="{{ '/' | relative_url }}" class="page-link first-last" title="첫 페이지">«</a>
+    {% endif %}
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="page-link">‹ 이전</a>
+    {% endif %}
+
+    {% assign start_page = paginator.page | minus: 5 %}
+    {% if start_page < 1 %}
+      {% assign start_page = 1 %}
+    {% endif %}
+
+    {% assign end_page = start_page | plus: 9 %}
+    {% if end_page > paginator.total_pages %}
+      {% assign end_page = paginator.total_pages %}
+      {% assign start_page = end_page | minus: 9 %}
+      {% if start_page < 1 %}
+        {% assign start_page = 1 %}
+      {% endif %}
+    {% endif %}
+
+    {% if start_page > 1 %}
+      <a href="{{ site.paginate_path | replace: ':num', 1 }}" class="page-link">1</a>
+      {% if start_page > 2 %}
+        <span class="page-ellipsis">…</span>
+      {% endif %}
+    {% endif %}
+
+    {% for page_num in (start_page..end_page) %}
+      {% if page_num == paginator.page %}
+        <span class="page-link current">{{ page_num }}</span>
+      {% else %}
+        {% if page_num == 1 %}
+          <a href="{{ '/' | relative_url }}" class="page-link">{{ page_num }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | replace: ':num', page_num }}" class="page-link">{{ page_num }}</a>
+        {% endif %}
+      {% endif %}
     {% endfor %}
 
-    <!-- Pagination links -->
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% if end_page < paginator.total_pages %}
+      {% if end_page < paginator.total_pages | minus: 1 %}
+        <span class="page-ellipsis">…</span>
       {% endif %}
-        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-      {% endif %}
+      <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}" class="page-link">{{ paginator.total_pages }}</a>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="page-link">다음 ›</a>
+    {% endif %}
+    {% if paginator.page < paginator.total_pages %}
+      <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}" class="page-link first-last" title="마지막 페이지">»</a>
+    {% endif %}
   </div>
+  {% endif %}
 </div>

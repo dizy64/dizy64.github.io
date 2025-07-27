@@ -1,18 +1,24 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<a href="{{ site.baseurl }}/" class="back-button">
+  ← 목록으로 돌아가기
+</a>
 
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
+    <div class="post-meta">
+      <span class="badge">{{ page.categories | first | default: "blog" }}</span>
+      <span class="meta-separator">•</span>
+      <span class="meta-text">{{ page.date | date: "%Y년 %m월 %d일" }}</span>
+    </div>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    {% if page.subtitle %}<h2 class="post-subtitle">{{ page.subtitle }}<h2>{% endif %}
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time> / <span itemprop="category">{{ page.categories }}</span> {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    {% if page.subtitle %}<h2 class="post-subtitle">{{ page.subtitle }}</h2>{% endif %}
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
 </article>
 <div class="disqus">
   <div id="disqus_thread"></div>
@@ -45,5 +51,10 @@ layout: default
   {% if page.next.url %}
     <div class="previous">다음 글 : <a href="{{ page.next.url }}">{{ page.next.title }}</a></div>
   {% endif %}
+</div>
 
+<div class="post-footer">
+  <a href="{{ site.baseurl }}/" class="back-button">
+    ← 목록으로 돌아가기
+  </a>
 </div>
