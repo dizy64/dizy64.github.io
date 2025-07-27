@@ -230,10 +230,7 @@
 }
 
 .post-title {
-  @include media-query($on-palm) {
-    font-size: 1.3rem;
-  }
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   font-weight: $header-font-weight;
   word-break: keep-all;
