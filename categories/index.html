@@ -5,13 +5,7 @@ subject: 카테고리
 permalink: /categories/
 ---
 
-<div class="main">
-  <div class="main-content">
-    <div class="intro">
-      <h1 class="intro-title">카테고리</h1>
-      <p class="intro-description">주제별로 정리된 포스트를 확인해보세요.</p>
-    </div>
-
+<div class="home">
     <div class="categories-grid">
       {% assign categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
       {% for category in categories %}
@@ -39,5 +33,4 @@ permalink: /categories/
         {% endif %}
       {% endfor %}
     </div>
-  </div>
 </div>
