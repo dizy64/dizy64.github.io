@@ -3,6 +3,7 @@ layout: post
 title: 2025년을 돌아보며
 date: 2026-01-08 23:50:00 +0900
 categories: 'review'
+meta-image: https://blog.dizy.dev/images/2025-retrospective-og.png
 ---
 
 어느 순간부터 회고를 작성하지는 않았는데 왜인지 2025년은 되돌아보고 싶었다.<br/>
