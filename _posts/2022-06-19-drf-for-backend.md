@@ -5,7 +5,7 @@ date: 2022-06-19 22:00:00 +0900
 categories: 'review'
 ---
 
-<img src="{{ site.url }}/images/drf-for-backend.jpeg" alt="백엔드를 위한 Django REST Framework with 파이썬 책 표지" width="500" height="652">
+<img src="{{ site.url }}/images/drf-for-backend.jpeg" alt="백엔드를 위한 Django REST Framework with 파이썬 책 표지">
 
 <div style="text-align: center">
   <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=294505763" target="_blank">백엔드를 위한 Django REST Framework with 파이썬</a>

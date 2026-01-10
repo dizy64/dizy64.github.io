@@ -31,3 +31,42 @@
     </div>
   </div>
 </footer>
+
+<!-- 이미지 라이트박스 -->
+<div class="image-lightbox" id="imageLightbox">
+  <img src="" alt="확대 이미지" id="lightboxImage">
+</div>
+
+<script>
+(function() {
+  var lightbox = document.getElementById('imageLightbox');
+  var lightboxImg = document.getElementById('lightboxImage');
+  
+  // 포스트 본문 내 이미지 클릭 이벤트
+  var postContent = document.querySelector('.post-content');
+  if (postContent) {
+    postContent.addEventListener('click', function(e) {
+      if (e.target.tagName === 'IMG') {
+        lightboxImg.src = e.target.src;
+        lightboxImg.alt = e.target.alt || '확대 이미지';
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    });
+  }
+  
+  // 라이트박스 닫기
+  lightbox.addEventListener('click', function() {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+  });
+  
+  // ESC 키로 닫기
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+})();
+</script>
