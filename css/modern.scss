@@ -701,6 +701,34 @@ body {
         opacity: 0.95;
       }
     }
+
+    table {
+      width: 100%;
+      margin: 1.5rem 0;
+      border: 1px solid #e5e7eb;
+      border-collapse: collapse;
+      font-size: 0.9375rem;
+
+      th, td {
+        padding: 0.75rem 1rem;
+        border: 1px solid #e5e7eb;
+        text-align: left;
+      }
+
+      th {
+        background: #f9fafb;
+        font-weight: 600;
+        color: #374151;
+      }
+
+      td {
+        color: #4b5563;
+      }
+
+      tr:nth-child(even) td {
+        background: #fafafa;
+      }
+    }
   }
 }
 
