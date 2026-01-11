@@ -3,3 +3,7 @@ _site
 .jekyll-metadata
 .swp
 .bundle
+
+# LLM 관련 캐시 저장 제외
+.claude
+.serena
