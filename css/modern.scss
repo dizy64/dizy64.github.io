@@ -985,11 +985,22 @@ body {
 
 /* About/Resume Page Styles */
 .resume-page {
-  padding: 2rem 0.25rem;
-  margin-bottom: 2rem;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
   
   section {
-    margin-bottom: 2.5rem;
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(229, 231, 235, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+    }
     
     &:last-child {
       margin-bottom: 0;
@@ -997,89 +1008,148 @@ body {
   }
   
   h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #111827;
     margin-bottom: 1.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #f3f4f6;
+    letter-spacing: -0.025em;
+    display: flex;
+    align-items: center;
+    
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 5px;
+      height: 22px;
+      background: linear-gradient(to bottom, #374151, #6b7280);
+      margin-right: 0.75rem;
+      border-radius: 2px;
+    }
   }
   
   h2 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 600;
-    color: #374151;
-    margin: 1.5rem 0 1rem 0;
+    color: #1f2937;
+    margin: 2rem 0 1rem 0;
+    letter-spacing: -0.01em;
     
     &:first-of-type {
-      margin-top: 0;
+      margin-top: 0.5rem;
     }
   }
   
   ul, ol {
-    margin-left: 1.5rem;
+    margin-left: 1.25rem;
     margin-bottom: 1rem;
     
     li {
       margin-bottom: 0.5rem;
-      line-height: 1.6;
+      line-height: 1.7;
       color: #4b5563;
+      padding-left: 0.25rem;
     }
     
     ul, ol {
       margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
     }
   }
   
   pre {
     @extend %code-pre;
+    margin: 1.5rem 0;
+    background: #f8fafc;
+    border: 1px solid #f1f5f9;
   }
   
   code {
     @extend %code-inline;
+    background: #f3f4f6;
+    color: #1f2937;
+    border: 1px solid #e5e7eb;
   }
 
   a {
     @extend %link-base;
+    color: #4b5563;
+    font-weight: 500;
+    border-bottom: 1px solid #e5e7eb;
+    
+    &:hover {
+      color: #111827;
+      border-bottom-color: #374151;
+      background: transparent;
+    }
   }
   
   .period {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     color: #6b7280;
-    font-weight: 500;
+    font-weight: 600;
     background: #f3f4f6;
-    padding: 0.125rem 0.375rem;
-    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    letter-spacing: 0.025em;
   }
   
   .skill {
     margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px dashed #e5e7eb;
+    
+    > ul {
+      list-style: none;
+      margin-left: 0;
+      
+      > li {
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+        color: #111827;
+        font-size: 1rem;
+      }
+    }
     
     .skill-horizontal {
       display: flex;
       flex-wrap: wrap;
-      gap: 1rem;
-      margin-left: 1.5rem;
+      gap: 0.5rem;
+      margin-left: 0;
+      margin-top: 0.75rem;
       list-style: none;
       padding-left: 0;
       
       li {
         margin-bottom: 0;
         position: relative;
+        background: white;
+        border: 1px solid #e5e7eb;
+        padding: 0.375rem 0.875rem;
+        border-radius: 9999px;
+        font-size: 0.8125rem;
+        font-weight: 500;
+        color: #4b5563;
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
         
         &::before {
-          content: "•";
-          position: absolute;
-          left: -0.75rem;
-          color: inherit;
+          content: none;
         }
         
-        &:first-child {
-          margin-left: 0.75rem;
+        &:hover {
+          background: #f9fafb;
+          color: #111827;
+          border-color: #d1d5db;
+          transform: translateY(-1px);
         }
         
+        &:first-child,
         &:not(:first-child) {
-          margin-left: 0.75rem;
+          margin-left: 0;
         }
       }
     }
@@ -1088,16 +1158,34 @@ body {
   q {
     display: block;
     font-style: italic;
-    color: #6b7280;
-    line-height: 1.7;
-    padding: 1rem;
+    color: #4b5563;
+    line-height: 1.8;
+    padding: 1.25rem 1.5rem;
     background: #f9fafb;
-    border-left: 4px solid #d1d5db;
-    border-radius: 0 0.375rem 0.375rem 0;
-    margin: 1rem 0;
+    border-left: 4px solid #9ca3af;
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin: 1.5rem 0 2rem 0;
+    position: relative;
     
     &:before, &:after {
       content: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    section {
+      padding: 1.5rem;
+    }
+    
+    .skill .skill-horizontal {
+      justify-content: flex-start;
+      gap: 0.375rem;
+      
+      li {
+        flex: 0 1 auto;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.75rem;
+      }
     }
   }
 }
@@ -1210,22 +1298,21 @@ body {
       margin-top: 1rem;
       
       .skill-horizontal {
-        flex-direction: column;
-        gap: 0.5rem;
+        flex-wrap: wrap;
+        gap: 0.375rem;
         
         li {
+          padding: 0.25rem 0.5rem;
+          font-size: 0.75rem;
           margin-left: 0;
           
           &::before {
-            left: -1rem;
+            content: none;
           }
           
-          &:first-child {
-            margin-left: 1rem;
-          }
-          
+          &:first-child,
           &:not(:first-child) {
-            margin-left: 1rem;
+            margin-left: 0;
           }
         }
       }
