@@ -2,6 +2,7 @@
 <meta itemprop="name" content="{% if page.subject %}{{ page.subject }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta itemprop="image" content="{% if page.meta-image %}{{ page.meta-image }}{% else %}{{ site.url }}/images/epilogue.jpg{% endif %}">
+<meta name="google-adsense-account" content="ca-pub-4702971710067050">
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
@@ -21,6 +22,7 @@
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="article:published_time" content="{% if page.date %}{{ page.date}}{% else %}{{ Time.now }}{% endif %}" />
 <meta property="article:modified_time" content="{% if page.date %}{{ page.date}}{% else %}{{ Time.now }}{% endif %}" />
+
 <!--
 <meta property="article:section" content="Article Section" />
 <meta property="article:tag" content="Article Tag" />
