@@ -31,12 +31,12 @@ layout: default
 
   <!-- Pagination links -->
   {% if paginator.total_pages > 1 %}
-  <div class="pagination">
+  <nav class="pagination" aria-label="페이지 네비게이션">
     {% if paginator.page > 1 %}
-      <a href="{{ '/' | relative_url }}" class="page-link first-last" title="첫 페이지">«</a>
+      <a href="{{ '/' | relative_url }}" class="page-link first-last" aria-label="첫 페이지"><span aria-hidden="true">«</span></a>
     {% endif %}
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="page-link">‹ 이전</a>
+      <a href="{{ paginator.previous_page_path }}" class="page-link" aria-label="이전 페이지"><span aria-hidden="true">‹</span> 이전</a>
     {% endif %}
 
     {% assign start_page = paginator.page | minus: 5 %}
@@ -81,11 +81,11 @@ layout: default
     {% endif %}
 
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="page-link">다음 ›</a>
+      <a href="{{ paginator.next_page_path }}" class="page-link" aria-label="다음 페이지">다음 <span aria-hidden="true">›</span></a>
     {% endif %}
     {% if paginator.page < paginator.total_pages %}
-      <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}" class="page-link first-last" title="마지막 페이지">»</a>
+      <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}" class="page-link first-last" aria-label="마지막 페이지"><span aria-hidden="true">»</span></a>
     {% endif %}
-  </div>
+  </nav>
   {% endif %}
 </div>

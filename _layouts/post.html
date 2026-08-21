@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<a href="{{ site.baseurl }}/" class="back-button">
-  ← 목록으로 돌아가기
+<a href="{{ site.baseurl }}/" class="back-button" aria-label="목록으로 돌아가기">
+  <span aria-hidden="true">←</span> 목록으로 돌아가기
 </a>
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -44,17 +44,17 @@ layout: default
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
-<div class="paginate">
+<nav class="paginate" aria-label="이전 다음 글">
   {% if page.previous.url %}
-    <div class="previous">이전 글 : <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></div>
+    <div class="paginate-item previous">이전 글 : <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></div>
   {% endif %}
   {% if page.next.url %}
-    <div class="previous">다음 글 : <a href="{{ page.next.url }}">{{ page.next.title }}</a></div>
+    <div class="paginate-item next">다음 글 : <a href="{{ page.next.url }}">{{ page.next.title }}</a></div>
   {% endif %}
-</div>
+</nav>
 
 <div class="post-footer">
-  <a href="{{ site.baseurl }}/" class="back-button">
-    ← 목록으로 돌아가기
+  <a href="{{ site.baseurl }}/" class="back-button" aria-label="목록으로 돌아가기">
+    <span aria-hidden="true">←</span> 목록으로 돌아가기
   </a>
 </div>

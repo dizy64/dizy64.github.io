@@ -233,7 +233,7 @@ body {
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
   background: linear-gradient(135deg, #4b5563, #6b7280); // 기본값 (YAML에서 오버라이드됨)
 }
 
@@ -760,6 +760,33 @@ body {
     object-fit: contain;
     border-radius: 4px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+
+    &:hover,
+    &:focus {
+      background: rgba(255, 255, 255, 0.2);
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
   }
 }
 

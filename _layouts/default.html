@@ -7,11 +7,11 @@
 
     {% include header.html %}
 
-    <div class="page-content">
+    <main class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
-    </div>
+    </main>
 
     {% include footer.html %}
 
@@ -24,7 +24,19 @@
           const href = card.getAttribute('data-href');
           let touchStartTime;
           let hasMoved = false;
-          
+
+          // 키보드 접근성: tabindex와 role 부여
+          card.setAttribute('role', 'link');
+          card.setAttribute('tabindex', '0');
+
+          // 키보드 Enter/Space로 이동
+          card.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              window.location.href = href;
+            }
+          });
+
           // 터치 시작
           card.addEventListener('touchstart', function(e) {
             touchStartTime = Date.now();
